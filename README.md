@@ -73,9 +73,48 @@
 
 Budibase is an all-in-one low-code platform for building, designing, and automating business apps, such as; admin panels, forms, internal tools, client portals, and more. Before Budibase, it could take developers weeks to build simple CRUD apps; with Budibase, building CRUD apps takes minutes.
 
-**Why Budibase ?**
+Today i was on budibase and docker.Today i have installed docker successfully.......after the initialization of docker for hosting is also done.
+After applying ......"sudo budi hosting --start" command i am getting some error .I am trying to resolve them.
+ I follow "https://github.com/Budibase/docs/tree/master/self-hosting" .
+ 
+ I was so frustrated bacause of this error as i was trying very hard to resolve this error i had applied number of solutions but none of them was working. While reading a book a thought came into my mind that i had applied a command before applying the above command after applying the  above command  "sudo docker-compose --env-file hosting.properties up" is applied. when its processing is finish we need to stop this so that it can deallocate all the containers that are in use. we can stop them by pressing
+ctrl+c it will take one or two minute to stop them dont press any other key.
+after it is done apply the command "sudo budi hosting --start"
+after applying the above command i was getting the the errors
+"ERROR: for bbworker  Cannot create container for service worker-service: Conflict. The container name "/bbworker" is already in use by container "bdcdda1b5119fdba49dd3b93c0b96b82dce0d875d3d9c3b3d48900d6573563da". You have to remove (or rename) that container to be able to reuse that name.
 
-Today i am installing docker for hosting app in budibase .It is successfully installed. But i got error during 'setting up budibase'.Not solved yet. I follow "https://github.com/Budibase/docs/tree/master/self-hosting" .
+ERROR: for worker-service  Cannot create container for service worker-service: Conflict. The container name "/bbworker" is already in use by container "bdcdda1b5119fdba49dd3b93c0b96b82dce0d875d3d9c3b3d48900d6573563da". You have to remove (or rename) that container to be able to reuse that name.
+Encountered errors while bringing up the project."
+then apply "sudo docker rm <container name>|| true"
+it will remove the container and reallocate them .
+if there are more than one container allocated then reapply the same command again.
+after removing them reapply "sudo budi hosting --start"
+ 
+ I was so happy after reolving the above error :))
+
+
+ 
+<br>
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 8-Feb-2022**
+<h3 align='center'>Introduction to Github Pages</h3>
+
+ Today one of my mate gave us a presentation on github.
+ He explained us what is github pages and how to create a repository.
+ -How to set a repository as the main branch and setting a theme for github pages.
+ -How to send push and pull request in github.
+"policy domain="path" rights="none" pattern="@*"- Learning about Personal access tokens for push Local Repository on GitHub.
+- Learning Syntax of Markdown Language in GitHub.
+<br>
+ 
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 9-Feb-2022** 
+<h3 align='center'>Introduction to Reveal.JS, Pandoc, Use of Markdown in Reveal.js</h3>
+
+- What is Reveal.JS, Pandoc, Use Markdown in Reveal.js.
+- Creating Presentation in Reveal.JS using Markdown only.
+- Learn how to show presentation on Local machine.
+- Converting .md file into .pdf file using Pandoc.
 <br>
 
 <!---------------------------------------------------------------------------------------------------------------------------->
@@ -108,7 +147,10 @@ Add data - You can connect to data sources like PostgreSQL, Rest APIs, MS SQL, M
 Design your UI - Build beautiful, accessible user interfaces people enjoy using. Autogenerate CRUD screens from your data, or create custom screens from scratch. Use powerful components, such as tables, buttons, form inputs, to enrich your interface. Switch from light mode to dark mode with just a click.
 Automate processes - In seconds, setup automations such as email alerts, Slack notifications, CRON actions, and more.</p>
 
-For creating CRUD app click on "https://docs.budibase.com/docs/build-a-crud-app".<br>
+For creating CRUD app click on "https://docs.budibase.com/docs/build-a-crud-app".
+ Today i am done with the installation of erpnext.
+ There was a presentation by one of my mates on frappe and how to create library mangement system in frappe framework.The presentation was good.they told us about the installation steps of frappe bench and how to create LMS and pros and cons of frappe like if we have to add users or articles then its is not possible to upload in bulk we need to upload them manually one by one.and how to create app,site and how to add articles and doctypes in LMS.
+ <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
