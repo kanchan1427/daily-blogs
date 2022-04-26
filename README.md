@@ -1,3 +1,4 @@
+
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 1-Feb-2022** 
 <h3 align='center'>Introduction to Linux & Installing Ubuntu</h3>
@@ -15,6 +16,7 @@
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
+
 **Date : 2-Feb-2022** 
 <h3 align='center'>Introduction to LAMP Stack</h3>
 
@@ -29,39 +31,20 @@
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
+
 **Date : 3-Feb-2022**
-<h3 align='center'>Run Cgi Script</h3>
-
-<p align="justify">CGI stands for Common Gateway Interface. CGI defines a standard way in which information may be passed to and from the browser and server. Any program or script that can process information according to the CGI specification can, in theory, be used to code a CGI script.</p>
-
-- Create a cgi scirpt.
-- Run it on Localhost using Apache Server.
-<br>
-
-<!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 4-Feb-2022**
-<h3 align='center'>Image to video</h3>
-
-- Create a python Script.
-- install pip,Image-MagicK on your system.
-- goto ---- /etc/ImageMagick-6/policy.xml file. 
-- Comment out line "policy domain="path" rights="none" pattern="@*" 
-- Run the script by using python3 filename.py.
-<br>
-
-<!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 5-Feb-2022**
 <h3 align='center'>Introduction to frappe</h3>
 
 <p align="justify">Frappe, pronounced fra-pay, is a full stack, batteries-included, web framework written in Python and Javascript with MariaDB as the database. It is the framework which powers ERPNext, is pretty generic and can be used to build database driven apps.</p>
-#### Why Frappe?
+**Why Frappe?
 <p align="justify">The key difference in Frappe compared to other frameworks is that meta-data is also treated as data. This enables you to build front-ends very easily. We believe in a monolithic architecture, so Frappe comes with almost everything you need to build a modern web application. It has a full featured Admin UI called the Desk that handles forms, navigation, lists, menus, permissions, file attachment and much more out of the box.</p>
 
 - Install Frappe-bench and its required tool. For more info [Click here](https://frappeframework.com/docs/v13/user/en/installation).
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 7-Feb-2022**
+
+**Date : 4-Feb-2022**
 <h3 align='center'>Creating App and Site & run on local server in Frappe</h3>
 
 - Start Bench in one Terminal.
@@ -72,7 +55,8 @@
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 8-Feb-2022**
+
+**Date : 5-Feb-2022**
 <h3 align='center'>Introduction to Github Pages</h3>
 
 - Getting Information What is GitHub Pages.
@@ -83,18 +67,21 @@
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 9-Feb-2022** 
-<h3 align='center'>Introduction to Reveal.JS, Pandoc, Use of Markdown in Reveal.js</h3>
 
-- What is Reveal.JS, Pandoc, Use Markdown in Reveal.js.
-- Creating Presentation in Reveal.JS using Markdown only.
-- Learn how to show presentation on Local machine.
-- Converting .md file into .pdf file using Pandoc.
+**Date:7-Feb-2022**
+<h3 align='center'>Introduction to budibase</h3>
+
+Budibase is an all-in-one low-code platform for building, designing, and automating business apps, such as; admin panels, forms, internal tools, client portals, and more. Before Budibase, it could take developers weeks to build simple CRUD apps; with Budibase, building CRUD apps takes minutes.
+
+**Why Budibase ?**
+
+Today i am installing docker for hosting app in budibase .It is successfully installed. But i got error during 'setting up budibase'.Not solved yet. I follow "https://github.com/Budibase/docs/tree/master/self-hosting" .
 <br>
 
-<!----------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------->
+
 **Date : 10-Feb-2022** 
-<h3 align='center'>Introduction to Docker, Virtual Machine and ERPNext</h3>
+<h3 align='center'>Introduction to Docker, Virtual Machine </h3>
 
 **What is Docker?**
 <p align="justify">Docker is popular virtualization software that helps its users in developing, deploying, monitoring, and running applications in a Docker Container with all their dependencies (frameworks, libraries, etc.) to run an application in an efficient and bug-free manner.Docker Containers are Light-weight, Applications run in isolation,Occupies less space, Easily portable and highly secure, Short boot-up
@@ -109,180 +96,210 @@ time.</p>
 - It can run only a limited number of VMs on a system.
 <br>
 
-**What is ERPNext?**
-<p align="justify">ERPNext is a full-featured business management solution that helps SMEs to record all their business transactions in a single system. With ERPNext, SMEs can make informed, fact-based, timely decisions to remain ahead in the competition. It serves as the backbone of a business adding strength, transparency, and control to your growing enterprise.</p>
-<br>
-
 <!----------------------------------------------------------------------------------------------------------------------------->
+
 **Date : 11-Feb-2022** 
-<h3 align='center'>Installing ERPNext in Frappe-bench</h3>
+<h3 align='center'>Create a CRUD app in budibase</h3>
 
-- If Frappe-bench installed in system follow second method otherwise you will get error.
-- Installion done with two manner 
-- By Adduser in linux
-- And create Erpnext app and site in frappe-bench Diretory.
-- For installation steps [Click here](https://github.com/D-codE-Hub/ERPNext-installation-Guide/blob/main/README.md). 
-<br>
+<p align="justify">Building apps with Budibase involves 4 simple steps:
+
+Install Budibase - Use Budibase Cloud to get started in seconds, or self-host your apps using Docker, Kubernetes , or DigitalOcean.
+Add data - You can connect to data sources like PostgreSQL, Rest APIs, MS SQL, MySQL and more, or start from scratch with Budibase's built-in database (Budibase DB, built on top of CouchDB).
+Design your UI - Build beautiful, accessible user interfaces people enjoy using. Autogenerate CRUD screens from your data, or create custom screens from scratch. Use powerful components, such as tables, buttons, form inputs, to enrich your interface. Switch from light mode to dark mode with just a click.
+Automate processes - In seconds, setup automations such as email alerts, Slack notifications, CRON actions, and more.</p>
+
+For creating CRUD app click on "https://docs.budibase.com/docs/build-a-crud-app".<br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 12-Feb-2022** 
-<h3 align='center'>Introduction to Selenium, Budibase, Coding standard for program</h3>
+
+**Date : 12-Feb-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Introduction to Selenium, Budibase</h3>
 - Selenium is browser automation tool by which you can create a script which automatically done task like fill credential and click for search.
 - Budibase is a development platform designed for speed and productivity. 
 - <p align="justify">With Budibase, developers no-longer experience repetition, long-dev cycles, and frustration. Instead, developers are more productive, happier, and can deliver applications they're proud of in minutes.</p>
-- <p align="justify">How to write code in Any script so that it can easily read by other programmer who contribute to your project, take variable name which should be relevant with its function.</p>
-<br>
+- 
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 14-Feb-2022** 
-<h3 align='center'>Try to Solve error redis-server during Installation</h3>
-**error while loading shared libraries: libatomic.so.1: cannot open shared object file: No such file or directory**
-- sudo apt purge libatomic1.
-- install houncho  if file is missing.
 
-<br>
+**Date : 14-Feb-2022**
+<h3 align='center'>Understanding the concept of budibase app </h3>
+I am currently working on budibase. Today i was reading the concept of apps that how they are created in Budibase.
+I haven’t done anything extra on budibase except reading the documentation and understanding the concept of built- in apps in budibase
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 15-Feb-2022** 
-<h3 align='center'>Introduction to Education module in Erpnext</h3>
-<p align="justify">The Education domain in ERPNext is designed to meet requirements of any organization which imparts knowledge and believe in doing so in an organized fashion. It has already been used at schools, colleges and even in private firms.
-It helps you to effectively manage administration and allows you to focus on what is most important for your institute, to educate!</p>
-<br>
+
+**Date : 15-Feb-2022**
+<h3 align='center'>Working on Job portal app in budibase</h3>
+if you want to access a budibase app without login, you will need to make some "Public" screens, and browse directly to the URL for those screens.
+
+You will also need to make sure that your public screens are only accessing tables/queries that have "Public" access. Beware that this will mean that all data in those tables will be public (if "Read" is set to Public).
+And I successfully make all screens public.
+I checked how all pages are created in job portal app. How it to be published. 
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 17-Feb-2022** 
-<h3 align='center'>Introduction to Jinja Templating</h3>
-<p align='justify'>Jinja is a fast, expressive, extensible templating engine. Special placeholders in the template allow writing code similar to Python syntax. Then the template is passed data to render the final document.</p>
 
-<br>
+**Date : 17-Feb-2022**
+<h3 align='center'>Create CRUD app using MySQL in budibase</h3>
 
-<!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 18-Feb-2022** 
-<h3 align='center'>Trying to fetch data from database using Jinja Templating</h3>
-- Write a Python Script for establish connection with Mariadb.
-- Still it gives permission error try to solve it.
+For creating CRUD app click on "https://docs.budibase.com/docs/build-a-crud-app".<br>
 
-<br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 19-Feb-2022** 
-<h3 align='center'>Working with server</h3>
-- Resetting the password of server.
-- Trying to install Erpnext on server.
 
-<br>
+**Date : 18-Feb-2022**
 
-<!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 21-Feb-2022** 
-<h3 align='center'>Mysql Administration, Converting pdf to md file</h3>
-- Today I created a new doctype in erpnext with different options
-- then learned about the administration concept of database
-- Converting pdf file to md and applying changes using markdown.
-
-<br>
+<h3 align='center'>Creating LMS </h3>
+<p align="justify"></p>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 22-Feb-2022** 
-<h3 align='center'>Add new user in ubuntu</h3>
-- Add new user in ubuntu.
-- trying to give access of database to other user.
 
-<br>
+**Date : 19-Feb-2022**
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 23-Feb-2022** 
-<h3 align='center'>How to use ssh</h3>
-- Login to Server, Try to help other member to install ldap on server.
-- Apply different permission related queries on database for different user.
 
-<br>
+**Date : 21-Feb-2022**
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 24-Feb-2022** 
-<h3 align='center'>Learning about how to import data in erpnext from csv file</h3>
-- Try to import data in erpnext app throught csv file.
-- Apply pagination in erpnext webpage.
 
-<br>
+ 
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+**Date : 22-Feb-2022**
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 25-Feb-2022** 
-<h3 align='center'>Import Data in Mysql</h3>
-- Try to import data in MariaDB throught csv file.
-- Learning the concept of permission on Server.
 
-<br>
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 28-Feb-2022** 
-<h3 align='center'>Creating Web page in ErpNext</h3>
-- Creating Static Webpage on Erpnext.
-- Learning Frappe School Module.
 
-<br>
+**Date : 23-Feb-2022**
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 2-Mar-2022** 
-<h3 align='center'>Learn Module from Frappe School</h3>
-- Creating new site with new app.
-- Creating Doctype and linking doctype with other.
-- Learn Jinja Script for frappe doctypes. 
 
-<br>
+<h3 align='center'> </h3>
+Today sir has assigned the task to explore education domain.I am reading the documentation and trying to understand it.
+<p align="justify"> </p>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 3-Mar-2022** 
-<h3 align='center'>Learn Meeting App</h3>
-- Understand the structure of meeting app.
-- Understand the javascript code and python code of meeting app.
 
-<br>
+**Date : 24-Feb-2022**
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 4-Mar-2022** 
-<h3 align='center'>Presentation and discussion of meeting app</h3>
-- Telling about the importance of doctype in Frappe-Framework.
-- Discuss with all team how it works and how we create new custom app.
 
-<br>
+
+<h3 align='center'> learning about the modules of education domain</h3>
+<p align="justify"> I am learning about the modules of education domain.
+Under faculty modules I have added teachers and checked the database entries .Today I have also learnt about GitHub basic commands like commit ,push.
+</p>
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+**Date : 25-Feb-2022**
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 5-Mar-2022** 
-<h3 align='center'>Creating own Noticeboard app</h3>
-- First create App and install it on website.
-- Create Doctype according to structure discussed in team.
-- Provide it web view.
+<h3 align='center'> basic setup of education domain</h3>
 
-<br>
+<p align="justify"> </p>
+ Today I have done the basic setup of education.First I created Programs, Course, Academic year, Academic Term etc.
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 7-Mar-2022** 
-<h3 align='center'>Customize Noticeboard app</h3>
-- Writing code to show correct date format eg. March 7, 2022.
-- Writing code to show the name of user who upload the notice.
-- Making its view user friendly in form and webpage both.
 
-<br>
+**Date : 26-Feb-2022**
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 8-Mar-2022** 
-<h3 align='center'>Learning about built in Note Doctype</h3>
-- Today I'm Differentiate between Noticeboard app and inbuilt note app.
-- Trying to understand note doctype functionality.
 
-<br>
+<h3 align='center'>basic setup of education Student Module </h3>
+
+<p align="justify"> I am uderstanding the concept of Student module in erpnext.I created Student, Student group etc.
+</p>
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+**Date : 28-Feb-2022**
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 9-Mar-2022** 
-<h3 align='center'>Learning about Workflow</h3>
-- Today I'm learning Workflow in ErpNext.
-- Understand how to pass control to different manager.
-- Trying to implement Purchase order list and trying to approve it from purchase manager and material manager.
 
-<br>
+<h3 align='center'>  </h3>
+Today I am trying to understand how i can assign courses, programs, enroll
+students in programs and how to alot instructors to the students
+according to a school and done it on my local.
+<p align="justify"> </p>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 11-Mar-2022** 
-<h3 align='center'></h3>
 
-<br>
+**Date : 01-March-2022**
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+<h3 align='center'> Sceduling Module</h3>
+<p align="justify"> Today I implementing the course Schedule on my local</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+
+**Date : 01-March-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'> Support Module</h3>
+<p align="justify">I am exploring Managing issue web form.
+Issue can be created in two ways. One is through the web portal after logged in and issue is created in the backend. Another one is through emails on support address and issue is created in the backend.
+</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+**Date : 11-March-2022**
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+<h3 align='center'> Assesement Module</h3>
+<p align="justify">Today I implemented the assessment module in
+gne11.gndec.ac.in.
+First I have created  Assessment Creteria . For example, if the assessment was conducted for english or other subject, then we canevaluate Student in English on various criteria like Writing, internal assessment(viva), Attendence etc.Assessment criteria can be used while scheduling assessment plan for
+student group and course.
+Then next , I have created Assessment group tree (hierarchy for examination conducted in school) for one batch i.e 2021-2022 . As shown in following screenshot.
+**Assessment plan**
+
+Next I created Assessment plan which is schedule to conduct the examination/assessment of a particular course for a group of students in an on-going academic term. For creating Assessment plan the prerequisites is grading scale so, we need to create grading scale for it.
+
+Grading Scale
+
+Grading scale define the threshold for the different grades obtained by the students, based on their scores in the assessment. For example , I have created grading scale of Students obtaining a score of 100%  would be graded as O, students obtaining a score of 80% and below would be graded A- and so on.
+After creating Assessment plan for course 'English-4/A/MST -1'. Then
+there is Assessment Result.
+
+Assessment Result
+
+Assessment Result is log of marks/grades earned by the student for
+specific Assessment. Basically we can use Assessment Result Tool for
+creating log of marks of multiple students at the same time . It is
+based on Assessment plan.
+
+ </p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+
+**Date : 12-March-2022**
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+<h3 align='center'>Setup of Assessment Module </h3>
+<p align="justify">Today I have done the setup of Assessment module.</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 14-March-2022**
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+<h3 align='center'>Result creation of students</h3>
+<p align="justify"> Today I am testing the assesment module, where the result of all the students in coursewise.For that first i have to create assessment plan for each course.Then get the reult of that particular assessment plan.</p>
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 15-March-2022**
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+<h3 align='center'> Report Generation of student</h3>
+<p align="justify"> In the erpnext education module I was trying to generate report card for students while creating report card I am able to show the courses and exams but not able to show the marks of students in the report card.I have assigned the marks to the particular students.</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
