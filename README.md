@@ -599,18 +599,206 @@ CRM and collect information on course completion
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 31-March-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Enabling chat options for the student users/h3>
-<p align="justify">First we install frappe framework then install erpnext with education domain.
- - After this we are collecting students and teachers data from Nankana Sahib Public School. - Arranging data according to doctype in erpnext. 
+<h3 align='center'>Enabling chat options for the student users</h3>
+<p align="justify">Today Sir assigned me a task to find how we can enable chat options for studnets as they didn't have desk access or chat option. In order to enable chat access we need to give all the students desk access but very limited. I gave 2-3 students customer role with the students role then they have desk access and also chat access. </p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 1-April-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>User Permissions</h3>
+<p align="justify">Today my task was to only show all the instructor and students only their concerned programs and courses on desk and on lms as well. I was searching for the solutions and also posted my query on discussion forum. And i got one reply for this they said to use user permission for each user and assign them particular programs and courses. After doing this instrcutors and students was able to view only their concerned programs and courses on desk. Also on Lms only the assigned programs and courses was visible to the students but to the instructors all the programs and courses was visible even after giving user permissions and role based permissions :( </p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 2-April-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Reading the files of LMS</h3>
+<p align="justify">As by using user permissions still instructor was able to see all the programs and courses. To find the solution for this we are trying to understand the structure of lms for this i was reading all the files of lms present in erpnext in the programs and course file it is metioned that by default instructor has access to all the programs and courses.</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 5-April-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>User Permission</h3>
+<p align="justify">After applying the user permission to the instructor for programs and courses instructor is able to see there current programs only. When instructor is trying to access the courses they are able to access it. But when they are trying to access the programs they are getting error/ Notification:-
+ "Not allowed for Course: Math-6 in Row 2. Restricted field: courseUser
+"abc@gmail.com" (instructor)  does not have access to this document
+
+Insufficient Permission for Program Class-6"
+ Now I am trying to understand how to resolve it. Because this error means that to give access to the instructor first we need to to give access of all the courses to the instructor even if they are not teaching all the courses which is unacceptable in technical terms. 
 </p>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 22-March-2022**
+**Date : 6-April-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Installing new Erpnext on server</h3>
-<p align="justify">First we install frappe framework then install erpnext with education domain.
- - After this we are collecting students and teachers data from Nankana Sahib Public School. - Arranging data according to doctype in erpnext. 
+<h3 align='center'>Creating Library Management System</h3>
+<p align="justify">As per official documentation I created Library Management App.
+ 
+ - Install app on site then creating doctype.
+ - Use Features like Naming Series, Permission Rules. 
+ - Learn Controller methods, Doctype Features, Form Scripts. 
+ - Adding Web view for preview Articles on web.
+
+</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 7-April-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Understanding the quiz format</h3>
+<p align="justify">Today I was searching that how can we hide the quiz result from the users and show them after some time. For that first I have checked all the quiz related doctypes and related parameters but in these there wasn't any control available for this. Then i checked all the doctypes files in erpnext folder and tried to understand the coding. In these files there isn't any condition available for the result they are showing the result based on a condition if checked question is right then show status pass, result, time taken etc else status fail and result, time taken etc.
+</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 8-April-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Writing Requirement and Specifications For the Souvenir Project</h3>
+<p align="justify">Today Sir explained us all the requirements of the souvenir project and what is the required outpiut of this project. Sir also explained us the yadein project which was used to generate souvenir of all the students near about 10 years ago And all the technology used in the yadein project. I accepted the souvenir project. So sir told me to first write the requirements and specifications of the projects and to share it with the sir. </p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 9-April-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Acceptence of the Requirements of Souvenir</h3>
+<p align="justify">Today the requirements and specification of the souvenir project got approval form the sir :) 
+ After this i immediately started working on souvenir project. Fisrt i created a doctype named souvenir with some fields like name, branch, urn, crn, dob, fathers name, mothers name etc, and there are two sections avialble for the friends Info of friend1, And Info of Friend2 in these field students will fill the details of their friends and comments for them. 
+ After creating the doctype and giving it web view I created a web-form based on the souvenir doctype and the name of the webform is souvenir-form it has same field as souvenir doctype. I Did all this on my local erpnext.</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 11-April-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Souvenir on server</h3>
+<p align="justify">After successfully creating the souvenir doctype and souvneir web-form and after checking if it is working or not. Today I created the souvenir doctype and souvenir web form on gne11.gnde.ac.in. And I was also working on the education domain of erpnext for nankana sahib public school.
+ </p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 12-April-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Souvenir on Server</h3>
+<p align="justify">Today I was working on the souvenir form. On our website i wasn't able
+to access the web form due to server exception.Then i created the
+souvenir doctype and souvenir webform on my local erpnext system. Sir
+told me to refresh the gne11.gndec.ac.in and pray sincerely :) . After
+this i was able to access the web form. Now the problem is that the
+user is able to attach image in the image field with login. But user
+is not able to attach image in the image field  (but user is able to
+select image of their choice). I also tried it on my local erpnext
+system, on that i am getting same problem.
 </p>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
+**Date : 13-April-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Souvenir and Basic coding guide part-1</h3>
+<p align="justify">Today I was working on souvenir web-form sir told me to add some more fields in the souvenir web form and do some changes in it.
+ Also I have read the basic coding guide part-1 it was very fun to read this as i like reading they have explained each and every this in a wonderful way. This was actually a story of farmer who started his own business and wanted to integrate everything on a single platform then after Searching on internet he got to know about erpnext where he can combine all the modules like accouting, sales management, employee management.
+ After the introduction they explained very well the tutorial of erpnext. 
+</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 15-April-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Presentation of Nankana Sahib Public School Project</h3>
+<p align="justify">Today we had a meeting with Satinder Sir and a teacher from Nankana Sahib Public School. In today's meetings we all presented what we have done till now. We showed them the whole workflow to add a student. For which first we need to add a student applicant and explained that there are two methods for this one is online by using web form and another is offline after the application is accepted we can enroll them in the programs by single-2 enrollment of every student and by using the program enrollment tool and we showed them the lms interface of student how student is going to access the programs and courses and quizzes.
+
+After student section we showed them the whole working of instructor how instructor can add content like articles, videos and quizzes in lms, mark the attendance of students etc. After Instructor we presented the HR module how to generate payrolls, salary slips, attendance of employees etc.
+</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 16-April-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Fetching data from another doctype in doctype</h3>
+<p align="justify">Today I was trying to fetch the fields in the souvenir doctype from other doctypes and  sehjal and pawandeep also helped me in this we were able to fetch branch name (username) etc. After that i was trying to migrate the souvenir doctype. I am not able to do it on my local erpnext as i am getting an error related to supervisor. I was trying to create an app named souvenir so that one can easily fork it from my repository but i was getting error so vishal created an app named souvenir on his local erpnext and added it to his github and i tried to fork it from his repository again i am getting error related to souvenir.
+
+</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 18-April-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Error On local erpnext </h3>
+<p align="justify">Today I was continuously getting error ;) related to supervisor vishal and I was trying to resolve this issue but after applying solutions for this error we were getting new errors so we uninstalled the local bench then reinstalled it on our local system. After this I created a
+new app named Souvenir_Form then installed it on site. Then I have created a new doctype named Souvenir and a web form named souvenir on my local system.
+</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 19-April-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Presentation Of all the topics</h3>
+<p align="justify">Today I gave presentation to all my mates in which i had covered all the topic that i have learnt during training like budibase, docker, erpnext and all the basic topics of education domain like student applicant, programs, courses, instructor, workflow, notifications,
+souvenir etc. Currently I am working on web form validation I have found some solutions that how to add events for validations and where to add
+validation. I will try to add these in my files and test these events.
+
+</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 20-April-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Validations on web form</h3>
+<p align="justify">I and pawan implemented the validations in the souvenir web form like
+in phone number field user can only enter 10 digits,  and crn and urn
+field will accept only 7 digit numbers. I have added the whole project
+as an app on the github and anyone can install it on their site and
+the link is  https://github.com/kanchan1427/Sovenier2022.git   Now i
+am trying to fetch the details of users form the user list (prefilled
+form) and image specifications.
+
+</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 21-April-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Installation of Souvenir app on Gne11</h3>
+<p align="justify">I have installed the souvenir_form app on gne11.gndec.ac.in. I was getting server exceptions on the web form. After some time it was working well and i was able to enter the data in the form. 
+</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 22-April-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Validations on web form</h3>
+<p align="justify">Today I and pawan did the validations on web form as previously we had implemented validations on web form but wasn't proper validations. As it was just showing the error message after cancelling the error the user information was getting saved. So it was not proper validations. So we again implemented the validations with proper functions and events and tested it properly as a tester. 
+</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+ 
+**Date : 23-April-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Working to fetch data from user doctype in souvenir doctype</h3>
+<p align="justify">Today I and Pawan was trying to fetch the data from user doctype to souvenir doctype. We were searching for the solutions for fetching the fields from another doctype. By default in the erpnect their is "fetch from" option is available in doctypes but we wanted to do it from backend so we implemeted it by using java script events that are present in official documentation of erpnext. We implemented it in js file of souvenir doctype. By using these events we were able to fetch the data like name,email,contact number from user doctype.
+</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 25-April-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Fetching Data on web form</h3>
+<p align="justify">Today we were trying to get the prefilled data in the souvenir web form so that user doesn't need to fill the information agaian and again as all the information is previously available. We implemented the same function which we had applied in doctype but these events are not working on the web form. To find the another alternative event we are searching online and watching youtube tutorials but till now we haven't got any
+ solution ;) . We are trying our best to get it done as soon as possible.</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 26-April-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Presentation on Souvenir Project </h3>
+<p align="justify">Today I gave presentation to all my mates on souvenir project. I
+showed them all the requirements and specification. I also showed them
+the overall workflow of the project and what i have done till now and
+what is the required output.
+
+Today i was trying to implement value =
+frappe.web_form.get_value([fieldname]); ,
+frappe.web_form.set_value([fieldname], [value]) these functions are
+working in the doctype i am trying same functions in the web form but
+these are not working in the doctype maybe I am not writing it in
+correct format. I will try to implement these functions in correct
+format.
+
+</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 27-April-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Successfully fetched data from souvenir doctype to souvenir web form</h3>
+<p align="justify">Today we succesfully fetched the data from souvenir doctype to the souvenir webform :) . But our main task was to get it form user list ;) .
+ we successfully  did populate the souvenir doctype from user doctype and
+then i was trying to fetch the data  to the webform but it didn't work
+but when we add data to the souvenir_doctype
+it will auto populate the webform.
+I found this discussion and here one say fetch doesnt work on webform.
+so we are now figuring out different menthod </p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
