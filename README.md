@@ -322,13 +322,8 @@ $ bench --site your-site install-app chat
 
 **Date : 02-March-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'> Support Module</h3>
-<p align="justify">Today I was working on website module as there were some issues with
-the website module in erp.gndec.ac.in  so for checking it on my local
-device i changed my erpnext's mode from developer to production.
-And I noticed that it is working fine on my local device  as there is
-save button present in student applicant web form. Now I exploring
-website module.
+<h3 align='center'> Reading the documentation of erpnext</h3>
+<p align="justify">Today I was reading the documentation of erpnext and trying to understand the instructor section of education domain. I got to know that while creating the instrcutor first we need to create the employee and assign them a particular company and after assigning the company we can make the same employee an instructor. Then we can assign them a particular program and courses. 
 
 </p>
 
@@ -336,7 +331,7 @@ website module.
  
  **Date : 03-March-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'> Support Module</h3>
+<h3 align='center'> Instructor Module</h3>
 <p align="justify">Today I was exploring the instructor and website module in erpnext . I
 implemented it in erpnext on my local device. Trying to explore all the duties and roles of instructor that are present in erpnext and also i am trying to understand the website module.
 
@@ -364,7 +359,7 @@ implemented it in erpnext on my local device. Trying to explore all the duties a
 
   **Date : 07-March-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>BAsic setup for Nanakana Sahib Public School</h3>
+<h3 align='center'>Basic setup for Nanakana Sahib Public School</h3>
 <p align="justify">
 Today I am done with the basic setup of Nankana Sahib Public
 School. I have created three programs Class 1, Class 2, Class 3 and
@@ -379,65 +374,243 @@ fine without any issue.
 <!----------------------------------------------------------------------------------------------------------------------------->
   **Date : 08-March-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Notice Board app</h3>
+<h3 align='center'>Notification After Applying for a program</h3>
 <p align="justify">Today sir assigned me a task to import all the students and applicants. And if a student is applyig for any programs then after filling the web form he should get a notification for id and password creation after the submission of web form.
 </p>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-
-
-**Date : 11-March-2022**
+ 
+ **Date : 09-March-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Notification After Applying for a program</h3>
+<p align="justify">I was searching that how a student can get a notification after fubmission of the web form. For this i was reading the official documentation and watching youtube videos. After Investing so much time i got to know that in the erpnext there is inbuilt notification feature and we can apply condition in notifications for when and for what we want to send notifications.</p>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
-<h3 align='center'> Assesement Module</h3>
-<p align="justify">Today I implemented the assessment module in
-gne11.gndec.ac.in.
-First I have created  Assessment Creteria . For example, if the assessment was conducted for english or other subject, then we canevaluate Student in English on various criteria like Writing, internal assessment(viva), Attendence etc.Assessment criteria can be used while scheduling assessment plan for
-student group and course.
-Then next , I have created Assessment group tree (hierarchy for examination conducted in school) for one batch i.e 2021-2022 . As shown in following screenshot.
-**Assessment plan**
-
-Next I created Assessment plan which is schedule to conduct the examination/assessment of a particular course for a group of students in an on-going academic term. For creating Assessment plan the prerequisites is grading scale so, we need to create grading scale for it.
-
-Grading Scale
-
-Grading scale define the threshold for the different grades obtained by the students, based on their scores in the assessment. For example , I have created grading scale of Students obtaining a score of 100%  would be graded as O, students obtaining a score of 80% and below would be graded A- and so on.
-After creating Assessment plan for course 'English-4/A/MST -1'. Then
-there is Assessment Result.
-
-Assessment Result
-
-Assessment Result is log of marks/grades earned by the student for
-specific Assessment. Basically we can use Assessment Result Tool for
-creating log of marks of multiple students at the same time . It is
-based on Assessment plan.
-
- </p>
+ **Date : 11-March-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Notification After Applying for a program</h3>
+<p align="justify">I was searching that how a student can get a notification after fubmission of the web form. For this i was reading the official documentation and watching youtube videos. After Investing so much time i got to know that in the erpnext there is inbuilt notification feature and we can apply condition in notifications for when and for what we want to send notifications.</p>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-
 
 **Date : 12-March-2022**
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
-<h3 align='center'>Setup of Assessment Module </h3>
-<p align="justify">Today I have done the setup of Assessment module.</p>
+<h3 align='center'>Notifications and student registration via form</h3>
+<p align="justify">Now when i am trying to add student applicant via form i am getting
+error message
+
+Title
+'StudentApplicant' object has no attribute 'status'
+Error
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/email/doctype/notification/notification.py",
+line 407, in evaluate_alert
+    if not frappe.safe_eval(alert.condition, None, context):
+  File "apps/frappe/frappe/__init__.py", line 1759, in safe_eval
+    return eval(code, eval_globals, eval_locals)
+  File "<string>", line 1, in <module>
+AttributeError: 'StudentApplicant' object has no attribute 'status'
+
+
+because in the  student applicant doctype there isn't any status
+trying to resolve the issue
+
+ </p>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
+
 **Date : 14-March-2022**
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
-<h3 align='center'>Result creation of students</h3>
-<p align="justify"> Today I am testing the assesment module, where the result of all the students in coursewise.For that first i have to create assessment plan for each course.Then get the reult of that particular assessment plan.</p>
+<h3 align='center'> Workflow and Basic Setup Nankana Sahib Public School</h3>
+<p align="justify">Today I created a workflow for the student applicants which has some state like approved by admission manager, approved by instructor, Approved by hod. First admission checker will acept or reject the application of students if it is accepted then instructor will get a notification for the this. Next instructor will approve or reject it if it is accepted the hod will accept it or reject it. 
+ 
+Today we all have done the basic setup again for Nankana Sahib Public School for Class 1 to Class 8 and imported students, instructors and enrolled them in programs, courses and assigned instructors to the programs. As it was very difficult for all of us to understand because there were many same enteries of two companies one of Nankana Sahib Public School and another of Guru Nanak Dev Engineering College and there were many enteries that we all have entered for testing purpose. So today we all deleted all the previous enteries to do the setup from scratch. It was very helpful for all of us as there  were some doubts of us related to program enrollment , course enrollment  and student group.
+</p>
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 15-March-2022**
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
-<h3 align='center'> Report Generation of student</h3>
-<p align="justify"> In the erpnext education module I was trying to generate report card for students while creating report card I am able to show the courses and exams but not able to show the marks of students in the report card.I have assigned the marks to the particular students.</p>
+<h3 align='center'> Course Scheduling</h3>
+<p align="justify"> Today we all have implemented course scheduling via course scheduling tool , assessment plan, attendance by using attendance tool, we were also exploring the student leave application but the problem is if we have added an application for leave and also approved it but after approving if an instructor is trying to add attendance of whole class via attendence tool then it marking everyone present including students with leave application. Today we all have explored learning management system in erpnext too "https://gne11.gndec.ac.in/lms"  which is basically student interface.
+I was also working on emails basically "how we can disable email must be unique" in erpnext and I have found a solution for this problem for this we have to open the doctype and to click on customize doctype and then go to email field type then click on edit in full page there is an checkbox named "Unique"  then just uncheck it.
+Now I was exploring how do I can add parents in erpnext and what are the requirements and I have found that there is an option named
+guardians in erpnext education module now I am working on it.
+</p>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
+
+ **Date : 16-March-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Report Card Generation</h3>
+<p align="justify">In the erpnext education module I was trying to generate report card
+for students while creating report card I am able to show the courses
+and exams but not able to show the marks of students in the report
+card,
+</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+  **Date : 17-March-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Guardian Module</h3>
+<p align="justify">I was exploring guardians modules in erpnext . I have created a
+guardian in education module there are two ways to create a guardian
+one by creating a user first then assign that user id to the guardian
+and other is we can directly create a user in the guardian doctype
+then there is a button named  "invite as user" after this in both the
+methods a invitation mail is sent to the user to complete their
+registration or to set a password. I was following
+"https://docs.erpnext.com/docs/v13/user/manual/en/education/guardian"
+
+But in this they haven't mentioned which type of role and permissions
+we need to assign to a parent user.</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+ **Date : 19-March-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Gunicorn, Socket.io, Scaffhold </h3>
+<p align="justify">Today we got to know three new terms that are used in frappe first is 
+ Gunicorn:-Gunicorn is built so many different web servers can interact with it.
+It also does not really care what you used to build your web
+application - as long as it can be interacted with using the WSGI
+interface.Gunicorn takes care of everything which happens in-between
+the web server and your web application. 
+ 
+ Socket.io:-Socket.IO is a library that enables low-latency, bidirectional and
+event-based communication between a client and a server. It is built
+on top of the WebSocket protocol and provides additional guarantees
+like fallback to HTTP long-polling or automatic reconnection. 
+ 
+ Scaffhold:-Scaffolding is a meta-programming method of building database-backed
+software applications. It is a technique supported by some
+model-view-controller frameworks, in which the programmer may write a
+specification that describes how the application database may be used.
+The compiler uses this specification to generate code that the
+application can use to create, read, update and delete database
+entries, effectively treating the template as a "scaffold" on which to
+build a more powerful application. 
+</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+ **Date : 21-March-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Reading the excellent reports by seniors</h3>
+<p align="justify">Today i was reading the three report that was written by our seniors.
+ 1.The above report is based on the language translator in which a group
+is trying to understand the role of lex and parser. It was really fun
+to read this report I really enjoyed reading it. The starting of the
+report, the examples delivered during the presentation, and the
+question answers during the presentation is really excellent.  My
+favourite part of the report was someone said "You should say, I don't
+know java rather than I don't like java" and also the chinese part as
+this is the best way to start and to gather the attention of the
+audience and to .
+ 2.The above report is based on the regular expressions , in the report
+they have mentioned the struggles of programmers in the early times as
+they did not had the laptops and personal computers.
+3.This report   "An ancient art of secure communication" is based on the
+encryption and decryption It was really interesting to know how
+encryption was used in the ancient times the example of "shaving the
+head of employee" for secure communication was very interesting and
+the example of kheer and the phrases  "Adhi raat da hanera, vich taare
+hi taare, mere gharo'n oat hoyi." was very intersting.
+
+I really enjoyed reading the above reports.
+</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+ **Date : 22-March-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Installing new Erpnext on server</h3>
+<p align="justify">First we install frappe framework then install erpnext with education domain.
+ - After this we are collecting students and teachers data from Nankana Sahib Public School. - Arranging data according to doctype in erpnext. 
+</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+ **Date : 23-March-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Comparing "http://103.66.206.229:8001/gne" in mobile and laptop</h3>
+<p align="justify">Today Sir told me to comapre this site in mobile view as well as in laptop view. As there was some problem in the mobile view. Also I was working on the ducation domain of erpnext and trying to understand it. 
+</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 24-March-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Working on Leave management</h3>
+<p align="justify">Today i was trying to understand the default workflow of employee leave management system means how employee can add their leaves and how HR/Department head will get the leave notification and how they will accept the leaves. And I was exploring the types of leaves and the salary cut for the leaves.</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 25-March-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>HElping others in their tasks</h3>
+<p align="justify">Today i Was helping others in their tasks. I </p>
+helped Jaspreet in importing instructors as there were some issue we both were trying to resolve it and after investing some time in it it got resolved.
+ After this I helped Sehjal in importing And adding the students in erpnext. And was trying to understand their tasks.
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 26-March-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Naming series According to the company</h3>
+<p align="justify">Today Sir assigned me and vishal  a task to change the naming series of student applicant doctype according to the company abberivation so that we can identify the students of each company(school/college) by looking at their naming series. There was a solution avialable in the official documentation of erpnext and we tried it but it wasn't working. We also tried some changes but still it wasn't working. After this we  were searching for the other solutions and there was a solution available in the discussion forum. We tried it on local machines and it was working perfectly after this we implemented it on gne11.gndec.ac.in</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 28-March-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Trying to understand the student leave section</h3>
+<p align="justify">Today I am trying to understand the student leave section under education domain of erpnext. I was trying to understand the default workflow of student leave section. how students will add their leaves and how instructor will get notification of the leaves.  </p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 29-March-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Created new web-form and doctype for trainees</h3>
+<p align="justify">Today i created a doctype named trainees_details with some fields and after that i created a web form based on this doctype. after creating this i gave web view to the doctype and after this i added it on the website so that students can fill their personal information.</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 30-March-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Integration of Erpnext with moodle</h3>
+<p align="justify">Today sir gave me a task to find a solution to integrate erpnext with moodle.After searching i got to know a new tool by which we can integrate erpnext with moodle.Myddleware for Moodle enables you to transfer your data easily and
+safely from your Moodle application to other applications such as your
+e-commerce, CRM or messaging tools. By doing so, it ensures a durable
+quality of your data, which is a prerequisite for productivity and
+efficiency. Your company can save time and money on data issues : no
+more endless IT expenses to ensure a smooth and secure data migration
+process, no more worrying about lost, out of date or incorrect data.
+With Myddleware, increase customer satisfaction thanks to a greater
+data quality.
+
+Myddleware, easily connect Moodle to other applications for more
+productivity and efficiency :
+
+  CRM/ERP : Salesforce, SAP CRM, SugarCRM, SuiteCRM, ERPNext, Hubspot,
+Cirrus Shield
+                        Manage your Moddle courses directly from your
+CRM and collect information on course completion
+
+</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 31-March-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Enabling chat options for the student users/h3>
+<p align="justify">First we install frappe framework then install erpnext with education domain.
+ - After this we are collecting students and teachers data from Nankana Sahib Public School. - Arranging data according to doctype in erpnext. 
+</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 22-March-2022**
+<!----------------------------------------------------------------------------------------------------------------------------->
+<h3 align='center'>Installing new Erpnext on server</h3>
+<p align="justify">First we install frappe framework then install erpnext with education domain.
+ - After this we are collecting students and teachers data from Nankana Sahib Public School. - Arranging data according to doctype in erpnext. 
+</p>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+
