@@ -1,9 +1,9 @@
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 1-Feb-2022** 
-<h3 align='center'>Introduction to Linux & Installing Ubuntu</h3>
+--Introduction to Linux & Installing Ubuntu</h3>
 
-<p align="justify">Linux is an open-source operating system like other operating systems such as Microsoft Windows, Apple Mac OS, iOS, Google android, etc. An operating system is a software that enables the communication between computer hardware and software. It conveys input to get processed by the processor and brings output to the hardware to display it. This is the basic function of an operating system.</p>
+Linux is an open-source operating system like other operating systems such as Microsoft Windows, Apple Mac OS, iOS, Google android, etc. An operating system is a software that enables the communication between computer hardware and software. It conveys input to get processed by the processor and brings output to the hardware to display it. This is the basic function of an operating system.
 
 - Download the linux distribution of your choice.
 - Creating Boot pendrive using rufus.exe in windows.
@@ -18,9 +18,9 @@
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 **Date : 2-Feb-2022** 
-<h3 align='center'>Introduction to LAMP Stack</h3>
+--Introduction to LAMP Stack</h3>
 
-<p align="justify">The LAMP stack is a popular open-source solution stack used primarily in web development.LAMP consists of four components necessary to establish a fully functional web development environment. The first letters of the components' names make up the LAMP acronym:</p>
+The LAMP stack is a popular open-source solution stack used primarily in web development.LAMP consists of four components necessary to establish a fully functional web development environment. The first letters of the components' names make up the LAMP acronym:
 
 - Linux is an operating system used to run the rest of the components.
 - Apache HTTP Server is a web server software used to serve static web pages.
@@ -33,11 +33,11 @@
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 **Date : 3-Feb-2022**
-<h3 align='center'>Introduction to frappe</h3>
+--Introduction to frappe</h3>
 
-<p align="justify">Frappe, pronounced fra-pay, is a full stack, batteries-included, web framework written in Python and Javascript with MariaDB as the database. It is the framework which powers ERPNext, is pretty generic and can be used to build database driven apps.</p>
+Frappe, pronounced fra-pay, is a full stack, batteries-included, web framework written in Python and Javascript with MariaDB as the database. It is the framework which powers ERPNext, is pretty generic and can be used to build database driven apps.
 **Why Frappe?
-<p align="justify">The key difference in Frappe compared to other frameworks is that meta-data is also treated as data. This enables you to build front-ends very easily. We believe in a monolithic architecture, so Frappe comes with almost everything you need to build a modern web application. It has a full featured Admin UI called the Desk that handles forms, navigation, lists, menus, permissions, file attachment and much more out of the box.</p>
+The key difference in Frappe compared to other frameworks is that meta-data is also treated as data. This enables you to build front-ends very easily. We believe in a monolithic architecture, so Frappe comes with almost everything you need to build a modern web application. It has a full featured Admin UI called the Desk that handles forms, navigation, lists, menus, permissions, file attachment and much more out of the box.
 
 - Install Frappe-bench and its required tool. For more info [Click here](https://frappeframework.com/docs/v13/user/en/installation).
 <br>
@@ -45,7 +45,7 @@
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 **Date : 4-Feb-2022**
-<h3 align='center'>Creating App and Site & run on local server in Frappe</h3>
+--Creating App and Site & run on local server in Frappe</h3>
 
 - Start Bench in one Terminal.
 - In Second Terminal.
@@ -57,7 +57,7 @@
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 **Date : 5-Feb-2022**
-<h3 align='center'>Introduction to Github Pages</h3>
+--Introduction to Github Pages</h3>
 
 - Getting Information What is GitHub Pages.
 - Create a New Repository on GitHub.
@@ -69,7 +69,7 @@
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 **Date:7-Feb-2022**
-<h3 align='center'>Introduction to budibase</h3>
+--Introduction to budibase</h3>
 
 Budibase is an all-in-one low-code platform for building, designing, and automating business apps, such as; admin panels, forms, internal tools, client portals, and more. Before Budibase, it could take developers weeks to build simple CRUD apps; with Budibase, building CRUD apps takes minutes.
 
@@ -97,7 +97,7 @@ after removing them reapply "sudo budi hosting --start"
 <br>
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 8-Feb-2022**
-<h3 align='center'>Introduction to Github Pages</h3>
+--Introduction to Github Pages</h3>
 
  Today one of my mate gave us a presentation on github.
  He explained us what is github pages and how to create a repository.
@@ -109,7 +109,7 @@ after removing them reapply "sudo budi hosting --start"
  
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 9-Feb-2022** 
-<h3 align='center'>Introduction to Reveal.JS, Pandoc, Use of Markdown in Reveal.js</h3>
+--Introduction to Reveal.JS, Pandoc, Use of Markdown in Reveal.js</h3>
 
 - What is Reveal.JS, Pandoc, Use Markdown in Reveal.js.
 - Creating Presentation in Reveal.JS using Markdown only.
@@ -120,17 +120,17 @@ after removing them reapply "sudo budi hosting --start"
 <!---------------------------------------------------------------------------------------------------------------------------->
 
 **Date : 10-Feb-2022** 
-<h3 align='center'>Introduction to Docker, Virtual Machine </h3>
+--Introduction to Docker, Virtual Machine </h3>
 
 **What is Docker?**
-<p align="justify">Docker is popular virtualization software that helps its users in developing, deploying, monitoring, and running applications in a Docker Container with all their dependencies (frameworks, libraries, etc.) to run an application in an efficient and bug-free manner.Docker Containers are Light-weight, Applications run in isolation,Occupies less space, Easily portable and highly secure, Short boot-up
-time.</p>
+Docker is popular virtualization software that helps its users in developing, deploying, monitoring, and running applications in a Docker Container with all their dependencies (frameworks, libraries, etc.) to run an application in an efficient and bug-free manner.Docker Containers are Light-weight, Applications run in isolation,Occupies less space, Easily portable and highly secure, Short boot-up
+time.
 - It can run multiple containers on a system.
 - It can start multiple containers at a time on the Docker engine.
 <br>
 
 **What is Virtual Machine?**
-<p align="justify">A Virtual Machine (VM) is a compute resource that uses software instead of a physical computer to run programs and deploy apps. One or more virtual “guest” machines run on a physical “host” machine.  Each virtual machine runs its own operating system and functions separately from the other VMs, even when they are all running on the same host. This means that, for example, a virtual MacOS virtual machine can run on a physical PC.</p>
+A Virtual Machine (VM) is a compute resource that uses software instead of a physical computer to run programs and deploy apps. One or more virtual “guest” machines run on a physical “host” machine.  Each virtual machine runs its own operating system and functions separately from the other VMs, even when they are all running on the same host. This means that, for example, a virtual MacOS virtual machine can run on a physical PC.
 - It can start only a single VM on a VMX.
 - It can run only a limited number of VMs on a system.
 <br>
@@ -138,14 +138,14 @@ time.</p>
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 **Date : 11-Feb-2022** 
-<h3 align='center'>Create a CRUD app in budibase</h3>
+--Create a CRUD app in budibase</h3>
 
-<p align="justify">Building apps with Budibase involves 4 simple steps:
+Building apps with Budibase involves 4 simple steps:
 
 Install Budibase - Use Budibase Cloud to get started in seconds, or self-host your apps using Docker, Kubernetes , or DigitalOcean.
 Add data - You can connect to data sources like PostgreSQL, Rest APIs, MS SQL, MySQL and more, or start from scratch with Budibase's built-in database (Budibase DB, built on top of CouchDB).
 Design your UI - Build beautiful, accessible user interfaces people enjoy using. Autogenerate CRUD screens from your data, or create custom screens from scratch. Use powerful components, such as tables, buttons, form inputs, to enrich your interface. Switch from light mode to dark mode with just a click.
-Automate processes - In seconds, setup automations such as email alerts, Slack notifications, CRON actions, and more.</p>
+Automate processes - In seconds, setup automations such as email alerts, Slack notifications, CRON actions, and more.
 
 For creating CRUD app click on "https://docs.budibase.com/docs/build-a-crud-app".
  Today i am done with the installation of erpnext.
@@ -155,23 +155,23 @@ For creating CRUD app click on "https://docs.budibase.com/docs/build-a-crud-app"
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 **Date : 12-Feb-2022**
- <h3 align='center'>Introduction to Selenium, Budibase</h3>
+ --Introduction to Selenium, Budibase</h3>
 - Selenium is browser automation tool by which you can create a script which automatically done task like fill credential and click for search.
 - Budibase is a development platform designed for speed and productivity. 
-- <p align="justify">With Budibase, developers no-longer experience repetition, long-dev cycles, and frustration. Instead, developers are more productive, happier, and can deliver applications they're proud of in minutes.
- today there was a presentation on salenium by kiran she showed us how to implement salenium she implemented it on guru portal where she automated the login on guru portal without manual click.</p>
+- With Budibase, developers no-longer experience repetition, long-dev cycles, and frustration. Instead, developers are more productive, happier, and can deliver applications they're proud of in minutes.
+ today there was a presentation on salenium by kiran she showed us how to implement salenium she implemented it on guru portal where she automated the login on guru portal without manual click.
 - 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 **Date : 14-Feb-2022**
-<h3 align='center'>Understanding the concept of budibase app </h3>
+--Understanding the concept of budibase app </h3>
 I am currently working on budibase. Today i was reading the concept of apps that how they are created in Budibase.
 I haven’t done anything extra on budibase except reading the documentation and understanding the concept of built- in apps in budibase
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 **Date : 15-Feb-2022**
-<h3 align='center'>Working on Job portal app in budibase</h3>
+--Working on Job portal app in budibase</h3>
 if you want to access a budibase app without login, you will need to make some "Public" screens, and browse directly to the URL for those screens.
 
 You will also need to make sure that your public screens are only accessing tables/queries that have "Public" access. Beware that this will mean that all data in those tables will be public (if "Read" is set to Public).
@@ -183,7 +183,7 @@ I am currently working on budibase. Today i was reading documents related to doc
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 **Date : 17-Feb-2022**
-<h3 align='center'>Working on Budibase</h3>
+--Working on Budibase</h3>
 
  Today I am working on budibase and trying to create an app i am able create all the tables and enteries in it but when i am trying to create view of pages i am getting error. I am not able to map their views.
 
@@ -191,7 +191,7 @@ I am currently working on budibase. Today i was reading documents related to doc
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 **Date : 17-Feb-2022**
-<h3 align='center'>Create CRUD app using MySQL in budibase</h3>
+--Create CRUD app using MySQL in budibase</h3>
  
  Today I was trying to create crud app-MySQL but there is an error related to database . And I am reading the documentation of erpnext (education domain) and  learnt how to create students and instructors.
 For creating CRUD app click on "https://docs.budibase.com/docs/build-a-crud-app".<br>
@@ -201,15 +201,15 @@ For creating CRUD app click on "https://docs.budibase.com/docs/build-a-crud-app"
 
 **Date : 18-Feb-2022**
 
-<h3 align='center'>Working on ERPNEXT </h3>
-<p align="justify">Today i started working on new platform erpnext it is open source, and low code or no platform. It is fun to work on a wonderful platform they provided us so much funtionality with number of modules like education domain, crm, website etc and all these are available inside a single platform and if we want to do modifications it is also possible in the erpnext :) 
+--Working on ERPNEXT </h3>
+Today i started working on new platform erpnext it is open source, and low code or no platform. It is fun to work on a wonderful platform they provided us so much funtionality with number of modules like education domain, crm, website etc and all these are available inside a single platform and if we want to do modifications it is also possible in the erpnext :) 
  Today i am reading the documentation of erpnext to understand the education domain. Today i have created some programs and courses now i am trying to understand how to enroll students in programs and courses.
-</p>
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 **Date : 19-Feb-2022**
- <h3 align='center'>Installation of MOSH and TMUX</h3>
+ --Installation of MOSH and TMUX</h3>
  Today we were working on education domain in erpnext and trying to understand the student module of education domain. Today we got to know two new tools which are really very helpful for the coders which are TMUX and MOSH. 
 Mosh: Mosh is free and command-line software that is used to connect
 from a client computer to a server over the Internet to run a remote
@@ -238,29 +238,29 @@ detach from a running process, and reattach to a running process.
 
 **Date : 21-Feb-2022**
  
- <h3 align='center'>Working on ERPNEXT </h3>
-<p align="justify">I am working on education domain of erpnext in this i have created programs and courses. In erpnext program means classes and courses means subjects. And i also did the enrollments of students in the programs and courses. Now i am trying to understand the studnets groups in erpnext.
-</p>
+ --Working on ERPNEXT </h3>
+I am working on education domain of erpnext in this i have created programs and courses. In erpnext program means classes and courses means subjects. And i also did the enrollments of students in the programs and courses. Now i am trying to understand the studnets groups in erpnext.
+
  
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 **Date : 22-Feb-2022**
  
-<h3 align='center'>Working on ERPNEXT </h3>
-<p align="justify">Today i am working on student group which are avialble in erpnext these are like a student sections. We can create students based on courses, Acedemic term, Activity which will help us to do group actions like if we want to generate fee of a student group at a time then it will help us in that instead of generating the fee of  single single student.
-</p>
+--Working on ERPNEXT </h3>
+Today i am working on student group which are avialble in erpnext these are like a student sections. We can create students based on courses, Acedemic term, Activity which will help us to do group actions like if we want to generate fee of a student group at a time then it will help us in that instead of generating the fee of  single single student.
+
  
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 **Date : 23-Feb-2022**
  
- <h3 align='center'> </h3>
+ -- </h3>
 Today sir has assigned the task to explore the strcuture of erpnext. I am reading the documentation and watching youtube videoes and trying to understand it:)
  Today I have learnt what is erpnext, architecture of erpnext, what is
 the role of frappe in erpnext, how erpnext is different from
 traditional softwares, what is doctype and field types. 
-<p align="justify"> </p>
+ 
 
 
 <!----------------------------------------------------------------------------------------------------------------------------->
@@ -273,16 +273,16 @@ traditional softwares, what is doctype and field types.
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 
-<h3 align='center'> Understanding the structure of erpnext</h3>
-<p align="justify"> Today I have learnt what is erpnext, architecture of erpnext, what is the role of frappe in erpnext, how erpnext is different from
+-- Understanding the structure of erpnext</h3>
+ Today I have learnt what is erpnext, architecture of erpnext, what is the role of frappe in erpnext, how erpnext is different from
 traditional softwares, what is doctype and field types. It is very interesting as i am having fun while doing this.
-</p>
+
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 **Date : 25-Feb-2022**
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Understanding the structure of erpnext</h3>
+--Understanding the structure of erpnext</h3>
  Today i have learnt how we can add and delete instructor, students, courses from backend. and i am trying to understand the structure of
 erpnext. It is very simple as all the doctypes in erpnext have a table with same name in the database and we can delete, insert and update enteries of all the doctypes by using basic mysql queries.
 <!----------------------------------------------------------------------------------------------------------------------------->
@@ -291,17 +291,17 @@ erpnext. It is very simple as all the doctypes in erpnext have a table with same
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
-<h3 align='center'> Understanding the structure of erpnext</h3>
+-- Understanding the structure of erpnext</h3>
 
-<p align="justify"> Today i am working on erpnext structure. I am trying to understand how views, modals and controllers are generated in erpnext and how to customize them. I am reading the official documentation and watching youtube videos to understand this. It is very difficult to understand the complete structure of erpnext as it is very big platform :(  but i am doing my best to understand it.
-</p>
+ Today i am working on erpnext structure. I am trying to understand how views, modals and controllers are generated in erpnext and how to customize them. I am reading the official documentation and watching youtube videos to understand this. It is very difficult to understand the complete structure of erpnext as it is very big platform :(  but i am doing my best to understand it.
+
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 **Date : 28-Feb-2022**
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
-<h3 align='center'> Basic setup of erpext on server</h3>
+-- Basic setup of erpext on server</h3>
 Today Sir has assigned me a task to do basic setup of erpnext on server. Sir gave me admin access so that i can do it on server and told me to check how one can apply for a particular program.
  For this First i created programs some with frontend and some by using import tool, Then i created courses with import tool, and successfully imported some students and instructors in the erp and assigned them programs and courses. And i am trying to understand what is cost center in erpnext.
 <!----------------------------------------------------------------------------------------------------------------------------->
@@ -310,57 +310,57 @@ Today Sir has assigned me a task to do basic setup of erpnext on server. Sir gav
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
-<h3 align='center'> Installation of chat app on erpnext version 13</h3>
-<p align="justify"> I and vishal installed the chat app on erpnext version 13 and it is working fine. It wasn't avialable with the official erpnext v13.
+-- Installation of chat app on erpnext version 13</h3>
+ I and vishal installed the chat app on erpnext version 13 and it is working fine. It wasn't avialable with the official erpnext v13.
  We did:-
 $ bench get-app chat
 $ bench --site your-site install-app chat
-</p>
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 
 **Date : 02-March-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'> Reading the documentation of erpnext</h3>
-<p align="justify">Today I was reading the documentation of erpnext and trying to understand the instructor section of education domain. I got to know that while creating the instrcutor first we need to create the employee and assign them a particular company and after assigning the company we can make the same employee an instructor. Then we can assign them a particular program and courses. 
+-- Reading the documentation of erpnext</h3>
+Today I was reading the documentation of erpnext and trying to understand the instructor section of education domain. I got to know that while creating the instrcutor first we need to create the employee and assign them a particular company and after assigning the company we can make the same employee an instructor. Then we can assign them a particular program and courses. 
 
-</p>
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
  
  **Date : 03-March-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'> Instructor Module</h3>
-<p align="justify">Today I was exploring the instructor and website module in erpnext . I
+-- Instructor Module</h3>
+Today I was exploring the instructor and website module in erpnext . I
 implemented it in erpnext on my local device. Trying to explore all the duties and roles of instructor that are present in erpnext and also i am trying to understand the website module.
 
-</p>
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
  **Date : 04-March-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Meeting app</h3>
-<p align="justify">Today vishal and pawan gave us a presentation of meeting app. They showed us how to create custom apps in erp and how to install it onto the site. And they also showed us the code of the app and structure and files of the meeting app. 
+--Meeting app</h3>
+Today vishal and pawan gave us a presentation of meeting app. They showed us how to create custom apps in erp and how to install it onto the site. And they also showed us the code of the app and structure and files of the meeting app. 
  Working on instructure section of education module of erpnext. 
-</p>
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
  
   **Date : 05-March-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Notice Board app</h3>
-<p align="justify">Today we all created a notice board app in erpnext within 30 minutes. It was a wonderful experience as we can created such apps withiin a short time period.
-</p>
+--Notice Board app</h3>
+Today we all created a notice board app in erpnext within 30 minutes. It was a wonderful experience as we can created such apps withiin a short time period.
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 
   **Date : 07-March-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Basic setup for Nanakana Sahib Public School</h3>
-<p align="justify">
+--Basic setup for Nanakana Sahib Public School</h3>
+
 Today I am done with the basic setup of Nankana Sahib Public
 School. I have created three programs Class 1, Class 2, Class 3 and
 three instructors for each class , four courses for each class, and
@@ -369,28 +369,28 @@ I have imported data of 8 students using the data import feature in
 erpnext and also tried to update the existing record which is working
 fine without any issue.
 
-</p>
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
   **Date : 08-March-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Notification After Applying for a program</h3>
-<p align="justify">Today sir assigned me a task to import all the students and applicants. And if a student is applyig for any programs then after filling the web form he should get a notification for id and password creation after the submission of web form.
-</p>
+--Notification After Applying for a program</h3>
+Today sir assigned me a task to import all the students and applicants. And if a student is applyig for any programs then after filling the web form he should get a notification for id and password creation after the submission of web form.
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
  
  **Date : 09-March-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Notification After Applying for a program</h3>
-<p align="justify">I was searching that how a student can get a notification after fubmission of the web form. For this i was reading the official documentation and watching youtube videos. After Investing so much time i got to know that in the erpnext there is inbuilt notification feature and we can apply condition in notifications for when and for what we want to send notifications.</p>
+--Notification After Applying for a program</h3>
+I was searching that how a student can get a notification after fubmission of the web form. For this i was reading the official documentation and watching youtube videos. After Investing so much time i got to know that in the erpnext there is inbuilt notification feature and we can apply condition in notifications for when and for what we want to send notifications.
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
  **Date : 11-March-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Notification After Applying for a program</h3>
-<p align="justify">I was searching that how a student can get a notification after fubmission of the web form. For this i was reading the official documentation and watching youtube videos. After Investing so much time i got to know that in the erpnext there is inbuilt notification feature and we can apply condition in notifications for when and for what we want to send notifications.</p>
+--Notification After Applying for a program</h3>
+I was searching that how a student can get a notification after fubmission of the web form. For this i was reading the official documentation and watching youtube videos. After Investing so much time i got to know that in the erpnext there is inbuilt notification feature and we can apply condition in notifications for when and for what we want to send notifications.
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
@@ -398,8 +398,8 @@ fine without any issue.
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
-<h3 align='center'>Notifications and student registration via form</h3>
-<p align="justify">Now when i am trying to add student applicant via form i am getting
+--Notifications and student registration via form</h3>
+Now when i am trying to add student applicant via form i am getting
 error message
 
 Title
@@ -419,7 +419,7 @@ AttributeError: 'StudentApplicant' object has no attribute 'status'
 because in the  student applicant doctype there isn't any status
 trying to resolve the issue
 
- </p>
+ 
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
@@ -427,39 +427,39 @@ trying to resolve the issue
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
-<h3 align='center'> Workflow and Basic Setup Nankana Sahib Public School</h3>
-<p align="justify">Today I created a workflow for the student applicants which has some state like approved by admission manager, approved by instructor, Approved by hod. First admission checker will acept or reject the application of students if it is accepted then instructor will get a notification for the this. Next instructor will approve or reject it if it is accepted the hod will accept it or reject it. 
+-- Workflow and Basic Setup Nankana Sahib Public School</h3>
+Today I created a workflow for the student applicants which has some state like approved by admission manager, approved by instructor, Approved by hod. First admission checker will acept or reject the application of students if it is accepted then instructor will get a notification for the this. Next instructor will approve or reject it if it is accepted the hod will accept it or reject it. 
  
 Today we all have done the basic setup again for Nankana Sahib Public School for Class 1 to Class 8 and imported students, instructors and enrolled them in programs, courses and assigned instructors to the programs. As it was very difficult for all of us to understand because there were many same enteries of two companies one of Nankana Sahib Public School and another of Guru Nanak Dev Engineering College and there were many enteries that we all have entered for testing purpose. So today we all deleted all the previous enteries to do the setup from scratch. It was very helpful for all of us as there  were some doubts of us related to program enrollment , course enrollment  and student group.
-</p>
+
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 15-March-2022**
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
-<h3 align='center'> Course Scheduling</h3>
-<p align="justify"> Today we all have implemented course scheduling via course scheduling tool , assessment plan, attendance by using attendance tool, we were also exploring the student leave application but the problem is if we have added an application for leave and also approved it but after approving if an instructor is trying to add attendance of whole class via attendence tool then it marking everyone present including students with leave application. Today we all have explored learning management system in erpnext too "https://gne11.gndec.ac.in/lms"  which is basically student interface.
+-- Course Scheduling</h3>
+ Today we all have implemented course scheduling via course scheduling tool , assessment plan, attendance by using attendance tool, we were also exploring the student leave application but the problem is if we have added an application for leave and also approved it but after approving if an instructor is trying to add attendance of whole class via attendence tool then it marking everyone present including students with leave application. Today we all have explored learning management system in erpnext too "https://gne11.gndec.ac.in/lms"  which is basically student interface.
 I was also working on emails basically "how we can disable email must be unique" in erpnext and I have found a solution for this problem for this we have to open the doctype and to click on customize doctype and then go to email field type then click on edit in full page there is an checkbox named "Unique"  then just uncheck it.
 Now I was exploring how do I can add parents in erpnext and what are the requirements and I have found that there is an option named
 guardians in erpnext education module now I am working on it.
-</p>
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
  **Date : 16-March-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Report Card Generation</h3>
-<p align="justify">In the erpnext education module I was trying to generate report card
+--Report Card Generation</h3>
+In the erpnext education module I was trying to generate report card
 for students while creating report card I am able to show the courses
 and exams but not able to show the marks of students in the report
 card,
-</p>
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
   **Date : 17-March-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Guardian Module</h3>
-<p align="justify">I was exploring guardians modules in erpnext . I have created a
+--Guardian Module</h3>
+I was exploring guardians modules in erpnext . I have created a
 guardian in education module there are two ways to create a guardian
 one by creating a user first then assign that user id to the guardian
 and other is we can directly create a user in the guardian doctype
@@ -469,14 +469,14 @@ registration or to set a password. I was following
 "https://docs.erpnext.com/docs/v13/user/manual/en/education/guardian"
 
 But in this they haven't mentioned which type of role and permissions
-we need to assign to a parent user.</p>
+we need to assign to a parent user.
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
  **Date : 19-March-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Gunicorn, Socket.io, Scaffhold </h3>
-<p align="justify">Today we got to know three new terms that are used in frappe first is 
+--Gunicorn, Socket.io, Scaffhold </h3>
+Today we got to know three new terms that are used in frappe first is 
  Gunicorn:-Gunicorn is built so many different web servers can interact with it.
 It also does not really care what you used to build your web
 application - as long as it can be interacted with using the WSGI
@@ -496,14 +496,14 @@ The compiler uses this specification to generate code that the
 application can use to create, read, update and delete database
 entries, effectively treating the template as a "scaffold" on which to
 build a more powerful application. 
-</p>
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
  **Date : 21-March-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Reading the excellent reports by seniors</h3>
-<p align="justify">Today i was reading the three report that was written by our seniors.
+--Reading the excellent reports by seniors</h3>
+Today i was reading the three report that was written by our seniors.
  1.The above report is based on the language translator in which a group
 is trying to understand the role of lex and parser. It was really fun
 to read this report I really enjoyed reading it. The starting of the
@@ -524,59 +524,59 @@ the example of kheer and the phrases  "Adhi raat da hanera, vich taare
 hi taare, mere gharo'n oat hoyi." was very intersting.
 
 I really enjoyed reading the above reports.
-</p>
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
  **Date : 22-March-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Installing new Erpnext on server</h3>
-<p align="justify">First we install frappe framework then install erpnext with education domain.
+--Installing new Erpnext on server</h3>
+First we install frappe framework then install erpnext with education domain.
  - After this we are collecting students and teachers data from Nankana Sahib Public School. - Arranging data according to doctype in erpnext. 
-</p>
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
  **Date : 23-March-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Comparing "http://103.66.206.229:8001/gne" in mobile and laptop</h3>
-<p align="justify">Today Sir told me to comapre this site in mobile view as well as in laptop view. As there was some problem in the mobile view. Also I was working on the ducation domain of erpnext and trying to understand it. 
-</p>
+--Comparing "http://103.66.206.229:8001/gne" in mobile and laptop</h3>
+Today Sir told me to comapre this site in mobile view as well as in laptop view. As there was some problem in the mobile view. Also I was working on the ducation domain of erpnext and trying to understand it. 
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 24-March-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Working on Leave management</h3>
-<p align="justify">Today i was trying to understand the default workflow of employee leave management system means how employee can add their leaves and how HR/Department head will get the leave notification and how they will accept the leaves. And I was exploring the types of leaves and the salary cut for the leaves.</p>
+--Working on Leave management</h3>
+Today i was trying to understand the default workflow of employee leave management system means how employee can add their leaves and how HR/Department head will get the leave notification and how they will accept the leaves. And I was exploring the types of leaves and the salary cut for the leaves.
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 25-March-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>HElping others in their tasks</h3>
-<p align="justify">Today i Was helping others in their tasks. I </p>
+--HElping others in their tasks</h3>
+Today i Was helping others in their tasks. I 
 helped Jaspreet in importing instructors as there were some issue we both were trying to resolve it and after investing some time in it it got resolved.
  After this I helped Sehjal in importing And adding the students in erpnext. And was trying to understand their tasks.
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 26-March-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Naming series According to the company</h3>
-<p align="justify">Today Sir assigned me and vishal  a task to change the naming series of student applicant doctype according to the company abberivation so that we can identify the students of each company(school/college) by looking at their naming series. There was a solution avialable in the official documentation of erpnext and we tried it but it wasn't working. We also tried some changes but still it wasn't working. After this we  were searching for the other solutions and there was a solution available in the discussion forum. We tried it on local machines and it was working perfectly after this we implemented it on gne11.gndec.ac.in</p>
+--Naming series According to the company</h3>
+Today Sir assigned me and vishal  a task to change the naming series of student applicant doctype according to the company abberivation so that we can identify the students of each company(school/college) by looking at their naming series. There was a solution avialable in the official documentation of erpnext and we tried it but it wasn't working. We also tried some changes but still it wasn't working. After this we  were searching for the other solutions and there was a solution available in the discussion forum. We tried it on local machines and it was working perfectly after this we implemented it on gne11.gndec.ac.in
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 28-March-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Trying to understand the student leave section</h3>
-<p align="justify">Today I am trying to understand the student leave section under education domain of erpnext. I was trying to understand the default workflow of student leave section. how students will add their leaves and how instructor will get notification of the leaves.  </p>
+--Trying to understand the student leave section</h3>
+Today I am trying to understand the student leave section under education domain of erpnext. I was trying to understand the default workflow of student leave section. how students will add their leaves and how instructor will get notification of the leaves.  
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 29-March-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Created new web-form and doctype for trainees</h3>
-<p align="justify">Today i created a doctype named trainees_details with some fields and after that i created a web form based on this doctype. after creating this i gave web view to the doctype and after this i added it on the website so that students can fill their personal information.</p>
+--Created new web-form and doctype for trainees</h3>
+Today i created a doctype named trainees_details with some fields and after that i created a web form based on this doctype. after creating this i gave web view to the doctype and after this i added it on the website so that students can fill their personal information.
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 30-March-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Integration of Erpnext with moodle</h3>
-<p align="justify">Today sir gave me a task to find a solution to integrate erpnext with moodle.After searching i got to know a new tool by which we can integrate erpnext with moodle.Myddleware for Moodle enables you to transfer your data easily and
+--Integration of Erpnext with moodle</h3>
+Today sir gave me a task to find a solution to integrate erpnext with moodle.After searching i got to know a new tool by which we can integrate erpnext with moodle.Myddleware for Moodle enables you to transfer your data easily and
 safely from your Moodle application to other applications such as your
 e-commerce, CRM or messaging tools. By doing so, it ensures a durable
 quality of your data, which is a prerequisite for productivity and
@@ -594,84 +594,84 @@ Cirrus Shield
                         Manage your Moddle courses directly from your
 CRM and collect information on course completion
 
-</p>
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 31-March-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Enabling chat options for the student users</h3>
-<p align="justify">Today Sir assigned me a task to find how we can enable chat options for studnets as they didn't have desk access or chat option. In order to enable chat access we need to give all the students desk access but very limited. I gave 2-3 students customer role with the students role then they have desk access and also chat access. </p>
+--Enabling chat options for the student users</h3>
+Today Sir assigned me a task to find how we can enable chat options for studnets as they didn't have desk access or chat option. In order to enable chat access we need to give all the students desk access but very limited. I gave 2-3 students customer role with the students role then they have desk access and also chat access. 
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 1-April-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>User Permissions</h3>
-<p align="justify">Today my task was to only show all the instructor and students only their concerned programs and courses on desk and on lms as well. I was searching for the solutions and also posted my query on discussion forum. And i got one reply for this they said to use user permission for each user and assign them particular programs and courses. After doing this instrcutors and students was able to view only their concerned programs and courses on desk. Also on Lms only the assigned programs and courses was visible to the students but to the instructors all the programs and courses was visible even after giving user permissions and role based permissions :( </p>
+--User Permissions</h3>
+Today my task was to only show all the instructor and students only their concerned programs and courses on desk and on lms as well. I was searching for the solutions and also posted my query on discussion forum. And i got one reply for this they said to use user permission for each user and assign them particular programs and courses. After doing this instrcutors and students was able to view only their concerned programs and courses on desk. Also on Lms only the assigned programs and courses was visible to the students but to the instructors all the programs and courses was visible even after giving user permissions and role based permissions :( 
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 2-April-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Reading the files of LMS</h3>
-<p align="justify">As by using user permissions still instructor was able to see all the programs and courses. To find the solution for this we are trying to understand the structure of lms for this i was reading all the files of lms present in erpnext in the programs and course file it is metioned that by default instructor has access to all the programs and courses.</p>
+--Reading the files of LMS</h3>
+As by using user permissions still instructor was able to see all the programs and courses. To find the solution for this we are trying to understand the structure of lms for this i was reading all the files of lms present in erpnext in the programs and course file it is metioned that by default instructor has access to all the programs and courses.
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 5-April-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>User Permission</h3>
-<p align="justify">After applying the user permission to the instructor for programs and courses instructor is able to see there current programs only. When instructor is trying to access the courses they are able to access it. But when they are trying to access the programs they are getting error/ Notification:-
+--User Permission</h3>
+After applying the user permission to the instructor for programs and courses instructor is able to see there current programs only. When instructor is trying to access the courses they are able to access it. But when they are trying to access the programs they are getting error/ Notification:-
  "Not allowed for Course: Math-6 in Row 2. Restricted field: courseUser
 "abc@gmail.com" (instructor)  does not have access to this document
 
 Insufficient Permission for Program Class-6"
  Now I am trying to understand how to resolve it. Because this error means that to give access to the instructor first we need to to give access of all the courses to the instructor even if they are not teaching all the courses which is unacceptable in technical terms. 
-</p>
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 6-April-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Creating Library Management System</h3>
-<p align="justify">As per official documentation I created Library Management App.
+--Creating Library Management System</h3>
+As per official documentation I created Library Management App.
  
  - Install app on site then creating doctype.
  - Use Features like Naming Series, Permission Rules. 
  - Learn Controller methods, Doctype Features, Form Scripts. 
  - Adding Web view for preview Articles on web.
 
-</p>
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 7-April-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Understanding the quiz format</h3>
-<p align="justify">Today I was searching that how can we hide the quiz result from the users and show them after some time. For that first I have checked all the quiz related doctypes and related parameters but in these there wasn't any control available for this. Then i checked all the doctypes files in erpnext folder and tried to understand the coding. In these files there isn't any condition available for the result they are showing the result based on a condition if checked question is right then show status pass, result, time taken etc else status fail and result, time taken etc.
-</p>
+--Understanding the quiz format</h3>
+Today I was searching that how can we hide the quiz result from the users and show them after some time. For that first I have checked all the quiz related doctypes and related parameters but in these there wasn't any control available for this. Then i checked all the doctypes files in erpnext folder and tried to understand the coding. In these files there isn't any condition available for the result they are showing the result based on a condition if checked question is right then show status pass, result, time taken etc else status fail and result, time taken etc.
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 8-April-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Writing Requirement and Specifications For the Souvenir Project</h3>
-<p align="justify">Today Sir explained us all the requirements of the souvenir project and what is the required outpiut of this project. Sir also explained us the yadein project which was used to generate souvenir of all the students near about 10 years ago And all the technology used in the yadein project. I accepted the souvenir project. So sir told me to first write the requirements and specifications of the projects and to share it with the sir. </p>
+--Writing Requirement and Specifications For the Souvenir Project</h3>
+Today Sir explained us all the requirements of the souvenir project and what is the required outpiut of this project. Sir also explained us the yadein project which was used to generate souvenir of all the students near about 10 years ago And all the technology used in the yadein project. I accepted the souvenir project. So sir told me to first write the requirements and specifications of the projects and to share it with the sir. 
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 9-April-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Acceptence of the Requirements of Souvenir</h3>
-<p align="justify">Today the requirements and specification of the souvenir project got approval form the sir :) 
+--Acceptence of the Requirements of Souvenir</h3>
+Today the requirements and specification of the souvenir project got approval form the sir :) 
  After this i immediately started working on souvenir project. Fisrt i created a doctype named souvenir with some fields like name, branch, urn, crn, dob, fathers name, mothers name etc, and there are two sections avialble for the friends Info of friend1, And Info of Friend2 in these field students will fill the details of their friends and comments for them. 
- After creating the doctype and giving it web view I created a web-form based on the souvenir doctype and the name of the webform is souvenir-form it has same field as souvenir doctype. I Did all this on my local erpnext.</p>
+ After creating the doctype and giving it web view I created a web-form based on the souvenir doctype and the name of the webform is souvenir-form it has same field as souvenir doctype. I Did all this on my local erpnext.
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 11-April-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Souvenir on server</h3>
-<p align="justify">After successfully creating the souvenir doctype and souvneir web-form and after checking if it is working or not. Today I created the souvenir doctype and souvenir web form on gne11.gnde.ac.in. And I was also working on the education domain of erpnext for nankana sahib public school.
- </p>
+--Souvenir on server</h3>
+After successfully creating the souvenir doctype and souvneir web-form and after checking if it is working or not. Today I created the souvenir doctype and souvenir web form on gne11.gnde.ac.in. And I was also working on the education domain of erpnext for nankana sahib public school.
+ 
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 12-April-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Souvenir on Server</h3>
-<p align="justify">Today I was working on the souvenir form. On our website i wasn't able
+--Souvenir on Server</h3>
+Today I was working on the souvenir form. On our website i wasn't able
 to access the web form due to server exception.Then i created the
 souvenir doctype and souvenir webform on my local erpnext system. Sir
 told me to refresh the gne11.gndec.ac.in and pray sincerely :) . After
@@ -680,58 +680,58 @@ user is able to attach image in the image field with login. But user
 is not able to attach image in the image field  (but user is able to
 select image of their choice). I also tried it on my local erpnext
 system, on that i am getting same problem.
-</p>
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 **Date : 13-April-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Souvenir and Basic coding guide part-1</h3>
-<p align="justify">Today I was working on souvenir web-form sir told me to add some more fields in the souvenir web form and do some changes in it.
+--Souvenir and Basic coding guide part-1</h3>
+Today I was working on souvenir web-form sir told me to add some more fields in the souvenir web form and do some changes in it.
  Also I have read the basic coding guide part-1 it was very fun to read this as i like reading they have explained each and every this in a wonderful way. This was actually a story of farmer who started his own business and wanted to integrate everything on a single platform then after Searching on internet he got to know about erpnext where he can combine all the modules like accouting, sales management, employee management.
  After the introduction they explained very well the tutorial of erpnext. 
-</p>
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 15-April-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Presentation of Nankana Sahib Public School Project</h3>
-<p align="justify">Today we had a meeting with Satinder Sir and a teacher from Nankana Sahib Public School. In today's meetings we all presented what we have done till now. We showed them the whole workflow to add a student. For which first we need to add a student applicant and explained that there are two methods for this one is online by using web form and another is offline after the application is accepted we can enroll them in the programs by single-2 enrollment of every student and by using the program enrollment tool and we showed them the lms interface of student how student is going to access the programs and courses and quizzes.
+--Presentation of Nankana Sahib Public School Project</h3>
+Today we had a meeting with Satinder Sir and a teacher from Nankana Sahib Public School. In today's meetings we all presented what we have done till now. We showed them the whole workflow to add a student. For which first we need to add a student applicant and explained that there are two methods for this one is online by using web form and another is offline after the application is accepted we can enroll them in the programs by single-2 enrollment of every student and by using the program enrollment tool and we showed them the lms interface of student how student is going to access the programs and courses and quizzes.
 
 After student section we showed them the whole working of instructor how instructor can add content like articles, videos and quizzes in lms, mark the attendance of students etc. After Instructor we presented the HR module how to generate payrolls, salary slips, attendance of employees etc.
-</p>
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 16-April-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Fetching data from another doctype in doctype</h3>
-<p align="justify">Today I was trying to fetch the fields in the souvenir doctype from other doctypes and  sehjal and pawandeep also helped me in this we were able to fetch branch name (username) etc. After that i was trying to migrate the souvenir doctype. I am not able to do it on my local erpnext as i am getting an error related to supervisor. I was trying to create an app named souvenir so that one can easily fork it from my repository but i was getting error so vishal created an app named souvenir on his local erpnext and added it to his github and i tried to fork it from his repository again i am getting error related to souvenir.
+--Fetching data from another doctype in doctype</h3>
+Today I was trying to fetch the fields in the souvenir doctype from other doctypes and  sehjal and pawandeep also helped me in this we were able to fetch branch name (username) etc. After that i was trying to migrate the souvenir doctype. I am not able to do it on my local erpnext as i am getting an error related to supervisor. I was trying to create an app named souvenir so that one can easily fork it from my repository but i was getting error so vishal created an app named souvenir on his local erpnext and added it to his github and i tried to fork it from his repository again i am getting error related to souvenir.
 
-</p>
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 18-April-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Error On local erpnext </h3>
-<p align="justify">Today I was continuously getting error ;) related to supervisor vishal and I was trying to resolve this issue but after applying solutions for this error we were getting new errors so we uninstalled the local bench then reinstalled it on our local system. After this I created a
+--Error On local erpnext </h3>
+Today I was continuously getting error ;) related to supervisor vishal and I was trying to resolve this issue but after applying solutions for this error we were getting new errors so we uninstalled the local bench then reinstalled it on our local system. After this I created a
 new app named Souvenir_Form then installed it on site. Then I have created a new doctype named Souvenir and a web form named souvenir on my local system.
-</p>
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 19-April-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Presentation Of all the topics</h3>
-<p align="justify">Today I gave presentation to all my mates in which i had covered all the topic that i have learnt during training like budibase, docker, erpnext and all the basic topics of education domain like student applicant, programs, courses, instructor, workflow, notifications,
+--Presentation Of all the topics</h3>
+Today I gave presentation to all my mates in which i had covered all the topic that i have learnt during training like budibase, docker, erpnext and all the basic topics of education domain like student applicant, programs, courses, instructor, workflow, notifications,
 souvenir etc. Currently I am working on web form validation I have found some solutions that how to add events for validations and where to add
 validation. I will try to add these in my files and test these events.
 
-</p>
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 20-April-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Validations on web form</h3>
-<p align="justify">I and pawan implemented the validations in the souvenir web form like
+--Validations on web form</h3>
+I and pawan implemented the validations in the souvenir web form like
 in phone number field user can only enter 10 digits,  and crn and urn
 field will accept only 7 digit numbers. I have added the whole project
 as an app on the github and anyone can install it on their site and
@@ -739,42 +739,42 @@ the link is  https://github.com/kanchan1427/Sovenier2022.git   Now i
 am trying to fetch the details of users form the user list (prefilled
 form) and image specifications.
 
-</p>
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 21-April-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Installation of Souvenir app on Gne11</h3>
-<p align="justify">I have installed the souvenir_form app on gne11.gndec.ac.in. I was getting server exceptions on the web form. After some time it was working well and i was able to enter the data in the form. 
-</p>
+--Installation of Souvenir app on Gne11</h3>
+I have installed the souvenir_form app on gne11.gndec.ac.in. I was getting server exceptions on the web form. After some time it was working well and i was able to enter the data in the form. 
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 22-April-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Validations on web form</h3>
-<p align="justify">Today I and pawan did the validations on web form as previously we had implemented validations on web form but wasn't proper validations. As it was just showing the error message after cancelling the error the user information was getting saved. So it was not proper validations. So we again implemented the validations with proper functions and events and tested it properly as a tester. 
-</p>
+--Validations on web form</h3>
+Today I and pawan did the validations on web form as previously we had implemented validations on web form but wasn't proper validations. As it was just showing the error message after cancelling the error the user information was getting saved. So it was not proper validations. So we again implemented the validations with proper functions and events and tested it properly as a tester. 
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
  
 **Date : 23-April-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Working to fetch data from user doctype in souvenir doctype</h3>
-<p align="justify">Today I and Pawan was trying to fetch the data from user doctype to souvenir doctype. We were searching for the solutions for fetching the fields from another doctype. By default in the erpnect their is "fetch from" option is available in doctypes but we wanted to do it from backend so we implemeted it by using java script events that are present in official documentation of erpnext. We implemented it in js file of souvenir doctype. By using these events we were able to fetch the data like name,email,contact number from user doctype.
-</p>
+--Working to fetch data from user doctype in souvenir doctype</h3>
+Today I and Pawan was trying to fetch the data from user doctype to souvenir doctype. We were searching for the solutions for fetching the fields from another doctype. By default in the erpnect their is "fetch from" option is available in doctypes but we wanted to do it from backend so we implemeted it by using java script events that are present in official documentation of erpnext. We implemented it in js file of souvenir doctype. By using these events we were able to fetch the data like name,email,contact number from user doctype.
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 25-April-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Fetching Data on web form</h3>
-<p align="justify">Today we were trying to get the prefilled data in the souvenir web form so that user doesn't need to fill the information agaian and again as all the information is previously available. We implemented the same function which we had applied in doctype but these events are not working on the web form. To find the another alternative event we are searching online and watching youtube tutorials but till now we haven't got any
- solution ;) . We are trying our best to get it done as soon as possible.</p>
+--Fetching Data on web form</h3>
+Today we were trying to get the prefilled data in the souvenir web form so that user doesn't need to fill the information agaian and again as all the information is previously available. We implemented the same function which we had applied in doctype but these events are not working on the web form. To find the another alternative event we are searching online and watching youtube tutorials but till now we haven't got any
+ solution ;) . We are trying our best to get it done as soon as possible.
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 26-April-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Presentation on Souvenir Project </h3>
-<p align="justify">Today I gave presentation to all my mates on souvenir project. I
+--Presentation on Souvenir Project </h3>
+Today I gave presentation to all my mates on souvenir project. I
 showed them all the requirements and specification. I also showed them
 the overall workflow of the project and what i have done till now and
 what is the required output.
@@ -787,18 +787,18 @@ these are not working in the doctype maybe I am not writing it in
 correct format. I will try to implement these functions in correct
 format.
 
-</p>
+
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 27-April-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
-<h3 align='center'>Successfully fetched data from souvenir doctype to souvenir web form</h3>
-<p align="justify">Today we succesfully fetched the data from souvenir doctype to the souvenir webform :) . But our main task was to get it form user list ;) .
+--Successfully fetched data from souvenir doctype to souvenir web form</h3>
+Today we succesfully fetched the data from souvenir doctype to the souvenir webform :) . But our main task was to get it form user list ;) .
  we successfully  did populate the souvenir doctype from user doctype and
 then i was trying to fetch the data  to the webform but it didn't work
 but when we add data to the souvenir_doctype
 it will auto populate the webform.
 I found this discussion and here one say fetch doesnt work on webform.
-so we are now figuring out different menthod </p>
+so we are now figuring out different menthod 
 
 <!----------------------------------------------------------------------------------------------------------------------------->
