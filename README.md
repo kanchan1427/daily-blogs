@@ -905,7 +905,8 @@ immediately.
  
  First I tried to get the image path file from the user that uploads it and then from the use of that source Got the Image Width and Height and then put some conditions and make it validate. First got some errors like it saves the form even after errors shown. the need to put some frappe web form components.In the end It works like charm. sample code is as follows:
 
-  var img = new Image();
+  
+                var img = new Image();
                  img.src = value;
                  img.onload = function () {
                      var height = this.height;
@@ -916,8 +917,7 @@ immediately.
                          frappe.throw("Height and Width must be Between 1000px and 350px");
                          return false;
                      }
-                     return true;
-                 
+                     return true; 
                  }
      
                  }
