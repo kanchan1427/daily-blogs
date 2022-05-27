@@ -747,3 +747,410 @@ I found this discussion and here one say fetch doesnt work on webform.
 so we are now figuring out different menthod 
 
 <!----------------------------------------------------------------------------------------------------------------------------->
+ **Date : 28-April-2022**
+
+## Presentation of souvenir
+ Today i gave presentation to all my mates and juniors. We have explained all the requirements of souvenir to the juniors and after that sir explained us all the flow of the project and there were some requirements that we have missed. 
+ 
+<!----------------------------------------------------------------------------------------------------------------------------->
+  **Date : 29-April-2022**
+
+## Testing of Souvenir
+ Today we have tested the souvenir project as a tester. There were some errors in the projects. If a user is updating his previous filled information than it creating a new entry for the same user rather than updating his details in the previous information.
+<!----------------------------------------------------------------------------------------------------------------------------->
+  **Date : 30-April-2022**
+
+## Hierarchy of Nankana Sahib Education Trust
+ 
+ Today we have discussed the hierarchy and structure of Nanakana sahib
+education trust, gndec, nsps.
+
+Basic Structure:- First we have a parent company Nankana sahib
+education trust and under these we have child companies Guru nanak dev
+engineering college, Nankana sahib public school (21 branches), Guru
+nanak dev polytechnic college, ITI.
+
+Accounts Structure:- First we have a parent company NSET and it has a
+bank account which will take care of all the accounts of child
+companies. Under the parent company we have a child company gndec
+which also has a fee account and a salary account all the tuition fee
+of students will directly go to the fee bank account , and all the
+amount of fee bank account will be transferred to the salary account
+and all the employees will get their salaries from the salary account.
+All the development fee will be directly transferred to the
+development account. For the development company will get the
+amount/fund from  the development account.
+
+Roles  in NSET:- In the nankana sahib education trust we have
+president , director, managerial staff and under the president we have
+sub roles for other users, secretary, and trustees. and under the
+managerial staff we have clerks and accountant. Only the received
+amounts and all benefits should be visible to the instructor. Only the
+accounts part should be visible to the director.Clerk is responsible
+for all the inventories stocks. Clerk2 will be responsible for the
+hostlers fee.And they should be able to see only their assigned
+company details.
+
+NSET:-
+In NSET company we have a director role which should have access to
+all the child companies. All the child companies GNDEC, NSPS have a
+principal.After that other staff is divided into two sections one is
+Non-teaching and other is teaching.Under the non-teaching staff we
+have clerks, accountants, assistants and other staff. Teaching section
+is further divided into Examination, student section(admissions etc),
+Establishment, Department. The examination staff will take care of
+examinations of companies, the student section will take care of the
+students admissions,fees etc.In the departments we have the role of
+HOD, section incharge, staff.
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+**Date : 2-May-2022**
+
+## Hackathon day 1
+ Roles and flow for Parent Comapany:-
+
+Director:- Director will have all permissions like fees, salary, accounts , total gain etc but with read only access.
+
+Accountant:- will have permissions to see all the account information of trust, nsps, gndec. Accountant will have read, write access to create the fee and salaries of the employee and also can create the fee report and salary report.
+
+HR:- HR will have permission to create the users and make them employees, leave allocation, holiday list, salary of employee. Superintendent
+Roles and flow for Child Comapany:-
+
+Principal:- Will have only read only access to all the education domain related information and HR related information.
+
+Accountants:- 1 For students fee and 1 for salaries of employees. Teaching Incharge:- Will do all the tasks of academic user like course scheduling etc.
+
+HR:- will create employees and instructors only for Nankana sahib Public School, leave allocation, salary of employees etc. We need to show all the reports like employees attendance report, salary report, leave report etc to the HR..
+
+Instructors:- will have access to student attendance, quiz, videos, article, Diary, Student list etc.
+ <!----------------------------------------------------------------------------------------------------------------------------->
+
+ **Date : 03-May-2022**
+
+## Hackathon day 2
+ 
+ Students:- will have access of only LMS and on lms they will have access of programs, Courses, Quizzes, Videos, Articles, daily diary and attendance.
+
+Accountant:- will create the salaries of employees and fees of students, will generate the balance sheet.
+
+We need to generate all the reports and graphs for necessary information for each role.
+
+Inventory Management
+
+Today, We created Director user of NSET, Superintendent of NSET, Principal user of NSPS and HR user of NSPS on erp server and gave them all the required permissions. And same roles are created on gne11.GNE, whose credentials are shared in other mail. You can check that roles with given credentials. Also we learn about Salary Structure and Salary Component of employees. In meeting with Harpreet sir, we learn about PF, Taxes, Funds, Earnings and Deductions etc. We will explore it and implement on gne11.GNE.
+ <!----------------------------------------------------------------------------------------------------------------------------->
+  **Date : 4-May-2022**
+
+## Assessment and report cards
+ 
+ I have explored the assessment section of education domain.
+For the assessment we need to create Assessment Criteria, Assessment
+Group , Assessment Plan , Grading scale.
+
+Assessment criteria:- Assessment Criteria is the parameter based on
+which you assess the Student. For example Theory and practical.
+
+Assessment Group:- Assessment Group tree is a master where you can
+define the hierarchy for examination conducted in your education
+institute.
+For example:- 2022-23 ->sem 1-> mst 1, mst2 , finals and sem 2-> mst1,
+mst 2, finals.
+
+Assessment Plan:- An Assessment Plan is a schedule to conduct the
+examination/assessment of a particular course for a group of students
+studying that course in an on-going academic term.
+It contains all the information like schedule time, room number,
+program, course, date, supervisor, examiner etc.
+
+Grading Scale:- In Grading Scale, you can define the threshold for
+the different grades obtained by the students, based on their scores
+in the assessment.For example, Students obtaining a score of 90% and
+above would be graded as A+, students obtaining a score of 80% and
+above would be graded A- and so on.
+
+Assessment Result:- In this we can generate the report card of
+students. We need to add the marks manually for each assessment
+criteria to generate the report card.
+
+I have added a quiz and an article in course so that students can
+attempt it on lms. These quizzes and articles are not related to the
+report cards. After attempting the quiz students will get their marks
+immediately. 
+ <!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 5-May-2022**
+
+## Creating Presentation in Revel.js 
+ 
+ Created Presentation for the Whole Project To so that we can present our work to the trusties so with the team we created a presentation which contains all the infomation related to the erp Syatem which deals with the all kind of accounting, maintaing all students,staff and employees and pushed on github.
+
+ <!----------------------------------------------------------------------------------------------------------------------------->
+
+ **Date : 6-May-2022**
+
+## Finding the Solution For the error
+ 
+ There were some error in the souvenir project as it was creating new entries for users after they update their informtaion in the previous information rather than updating it in the previous information. So I was trying to find the solution for the error i have tried some js function in the .js file but error was still there so i am finding another solution for the error.
+ <!----------------------------------------------------------------------------------------------------------------------------->
+ 
+  **Date : 7-May-2022**
+
+## Finding the Solution For the error
+ 
+ There were some error in the souvenir project as it was creating new entries for users after they update their informtaion in the previous information rather than updating it in the previous information. So I was trying to find the solution for the error i have tried some js function in the .js file but error was still there so i am finding another solution for the error.
+ <!----------------------------------------------------------------------------------------------------------------------------->
+
+**Date : 9-May-2022**
+
+## Image Specifications To Web From
+ 
+ First I tried to get the image path file from the user that uploads it and then from the use of that source Got the Image Width and Height and then put some conditions and make it validate. First got some errors like it saves the form even after errors shown. the need to put some frappe web form components.In the end It works like charm. sample code is as follows:
+
+  var img = new Image();
+                 img.src = value;
+                 img.onload = function () {
+                     var height = this.height;
+                     var width = this.width;
+                     console.log(height, width)
+                     frappe.web_form.validate = () => {
+                     if ((height > 1000 || width > 1000) || (height < 350 || width < 350)) {
+                         frappe.throw("Height and Width must be Between 1000px and 350px");
+                         return false;
+                     }
+                     return true;
+                 
+                 }
+     
+                 }
+
+
+ 
+ <!-----------------------------------------------------------------------------------------------------------------------------> 
+  **Date : 10-May-2022**
+
+## Creating the view of souvenir
+ 
+ First we were implementing the view of souvenir in which we were just fetching the details of souvenir doctype in the view but yesterday sir
+told us to create a webpage for instructor. Today we(I and pawan) had a meeting with sehjal as had implemented mentor mentee before so we
+were trying to understand the concept of that app and the coding. They hadn't implemented the mentor mentee in erpnext she implemented it in
+frappe. So she created her own doctypes and added a mentor field in the student doctype by using which she was able to fetch mentees of
+mentor. But in the  erpnext we already have student doctype and instructor doctype even we have a student group in which we can assign
+a mentor to a instructor. Now we are trying to create logic for mentor mentee by using all these doctypes.
+
+ <!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 10-May-2022**
+
+## Creating the view of souvenir
+ 
+ I am implementing the view of souvenir in which we were just fetching the details of souvenir doctype in the view but yesterday sir
+told us to create a webpage for instructor. Today we(I and pawan) had a meeting with sehjal as had implemented mentor mentee before so we
+were trying to understand the concept of that app and the coding. They hadn't implemented the mentor mentee in erpnext she implemented it in
+frappe. So she created her own doctypes and added a mentor field in the student doctype by using which she was able to fetch mentees of
+mentor. But in the  erpnext we already have student doctype and instructor doctype even we have a student group in which we can assign
+a mentor to a instructor. Now we are trying to create logic for mentor mentee by using all these doctypes.
+
+ <!----------------------------------------------------------------------------------------------------------------------------->
+
+**Date : 11-May-2022**
+
+## New requirements of Souvenir
+ 
+ Today We have got new requirements of souvenir projects.
+ There will be  a web page for instructors.
+
+He will get a list for all his mentees.
+
+On clicking a mentee, he will get all comments, and may be an "edit box"
+for his comment. He may click the best comment, and that must be
+copied to his edit box, where he further edit and polish it and save,
+and repeat the same for next mentee.
+ 
+ Now we are trying to understand the flow of these requirements and will implement it.
+ <!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 12-May-2022**
+
+## Creating Webpage for the instructor
+ 
+We were trying to create a webpage for instructors. After giving a web view to the souvenir doctype we were trying to fetch the details of
+the student group doctype in the souvenir web view. But we are not able to fetch the student group details because its domain is
+different. Now we are searching for a way to do this.
+
+ <!----------------------------------------------------------------------------------------------------------------------------->
+
+**Date : 12-May-2022**
+
+## Creating Webpage for the instructor
+ 
+ Today We were trying to create a web page for instructor with a condition if the instructor has access to A class then on web page the
+instructor will have only the class A's students.But we are unable to map the mentor with his mentees. We want to show the instructor only his assigned class students. After clicking on the students he will get all the comments of the each student.
+
+ <!----------------------------------------------------------------------------------------------------------------------------->
+
+
+**Date : 13-May-2022**
+
+## updatingthe image specifications of souvenir
+ 
+ First I tried to get the image path file from the user that uploads it and then from the use of that source Got the Image Width and Height and then put some conditions and make it validate. First got some errors like it saves the form even after errors shown. the need to put some frappe web form components. We updated  the rules of image specifications.
+ 
+ <!----------------------------------------------------------------------------------------------------------------------------->
+
+**Date : 14-May-2022**
+
+## Exploring CRM module in erpnext
+ 
+ Today I am working on CRM module in erpnext.CRM helps you track business Opportunities from Leads and Customers, send them Quotations, and book Sales Orders.CRM has various terms like Lead, sales, reports, setup, marketing, article.
+I will explore all these terms.
+ 
+ In CRM under the sales section we have
+
+Lead:- A lead is a potential customer who might be interested in your
+products or services. For example if we are advertising some products
+and people are interested in our products and they come to check out
+our products. These are our Leads.
+
+After creating a lead erpnext is providing us many features like auto
+assignment by using which we can assign a lead to a particular user.
+Adding Multiple Contacts and Addresses:- In order to close a sales
+deal, you will have to contact multiple people working in the
+prospective company. You can add the details of all such people in the
+same lead.
+Recording Comments, Emails :- We can have comments under a lead , and
+also we can send email/ reply to the customer from the lead.
+
+
+ <!----------------------------------------------------------------------------------------------------------------------------->
+
+**Date : 16-May-2022**
+
+## CRM in erpnext
+ 
+opportunity:- When you get a hint that lead is looking for a
+product/service that you offer, you can convert that lead into an
+opportunity.
+
+features of opportunity:-
+Auto-close Opportunities:- If you do not receive a response from an
+opportunity for a certain number of days, you may want that
+opportunity to be closed automatically. We can set no. of days in the
+sales settings. Lead will close automatically close if there isn't any
+response within the set no. of days.
+
+Auto assignment:- We can assign the opportunity to a particular user.
+
+Capture the Reasons and Competitors for Lost Opportunities:- When an
+opportunity is lost, you can capture the reasons, competitors and
+detail reason for losing. This will help you to analyse the trends
+over a long period of time and identify the insights needed for
+improvements at various areas in the organisation.
+
+ <!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 17-May-2022**
+
+## Sales section under CRm in erpnext
+ 
+ 
+In the CRM under the Sales section we have
+
+Customer:- Customer is the one who receives goods, services, products,
+or ideas, from a seller for monetary consideration. Customer will have
+a unique id we can set customer name as a unique id or we can give
+them a naming series as a unique id.
+
+Features:-
+Multiple Contacts and Addresses:- We can add multiple addresses and
+contact details for a single customer
+
+Default Currency and Price List:- We can can set the default currency
+to be used for this customer in sales orders and sales invoices by
+selecting the appropriate currency in Billing Currency.
+
+Credit Limit and Payment Terms:- We can set the credit limit by
+entering the amount in 'Credit Limit' field
+
+Or we can see the complete accounting ledger for a particular user.
+
+ <!----------------------------------------------------------------------------------------------------------------------------->
+
+
+**Date : 18-May-2022**
+
+## HR and Buying module in erpnext
+ 
+ Today Sir has assigned us a new task. I and Aman will explore the HR and Buying module in the erpnxt. We have shared all the templates for required data with some temporary data.
+ 
+The Human Resources (HR) module covers the processes related to the HR department of a company. It maintains a complete employee database including contact information, salary details, attendance, performance evaluation, leaves, and appraisal records.
+The most important feature here is processing the payroll by using Payroll Entry to generate Salary Slips. Most countries have complex tax rules stating which expenses the company can make on behalf of its Employees.
+There are a set of rules for the company to deduct taxes and social security from employee payroll. ERPNext accommodates all types of taxes and their calculation.
+ <!----------------------------------------------------------------------------------------------------------------------------->
+
+ **Date : 19-May-2022**
+
+## HR and Buying module in erpnext
+
+ In the HR domain we have Shift Management module.The Shift Management
+module in ERPNext HR helps us efficiently manage shifts for our
+employees.
+Under the shift Management we have Shift type, Shift assignment, shift request .
+
+Shift type:- In the shift type doctype we can create multiple shifts
+of our company like morning, evening etc. It contains Name of the
+shift, start time and end time of shift.
+
+Shift Request :- Shift request  is used by employees of a company to
+request for a particular shift.
+
+Shift Assignment:- when the employee requests for a particular shift
+and when the shift request is approved and submitted then the system
+will automatically  assign shifts to the employees
+ <!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 21-May-2022**
+
+## HR module in erpnext
+ 
+ In the HR module We ca add employee, can mark their attendence, generate their salraies,Fleet management, performance appraisal etc. Employees can also request for leave. 
+ <!----------------------------------------------------------------------------------------------------------------------------->
+
+**Date : 23-May-2022**
+
+## Buying module in erpnext
+ 
+ Today I and aman was exploring the buying module. In Buying, we need to have items, suppliers and warehouses.
+In this, firstly we will create a Material Request for the items that we want to buy, then a request for quotation will be created against that material request. Email will be sent to the suppliers and they will submit the supplier quotation. Then it will be visible to us in
+the supplier quotation list. We will choose the best quotation among all of them. After that, we can create a purchase order.
+
+ <!----------------------------------------------------------------------------------------------------------------------------->
+
+**Date : 24-May-2022**
+
+## View According to roles in the desk
+ 
+Today Sir has assigned me a new task. I am work on what should be visible to a particular role in the desk view. I will also compare the
+current system (Fee bank) of Nankana Sahib Public School with the erpnext.Today I am reading the files of erpnext and also exploring
+desk so that we can change the view / sidebar based on the roles.
+ 
+
+ <!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 25-May-2022**
+
+## View According to roles in the desk
+ 
+We were finding a way to generate/ update the view according to the role. We haven't found anything in the files of erpnext and on desk. Sowe have checked all the posts on the communutity related to this for the solution. In the community they are saying currently it is not possible to
+restrict the modules according to the roles. But we can do this for each user.Means if there is an instructor role  and we want to restrict
+the other modules for instructor role except the education module.This is not possible to do this for role. If there are 10 instructor
+users then we can do this for each user.
+<!----------------------------------------------------------------------------------------------------------------------------->
+ 
+**Date : 26-May-2022**
+
+## Solution for the view according to role
+ 
+In the community they are saying currently role basedpermissions are not available. SO we were trying to find another way for this like script or csv file etc.
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 27-May-2022**
+
+## csv file for the view
+ 
+ Today we have created the csv file for every instructor so that we can block all the other modules in the instructor view except education module. We have also implemented it for a single instructor for testing purpose. Only the ducation domain is visible to the instructor.
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+
