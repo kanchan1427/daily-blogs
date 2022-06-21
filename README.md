@@ -1152,5 +1152,44 @@ In the community they are saying currently role basedpermissions are not availab
  
  Today we have created the csv file for every instructor so that we can block all the other modules in the instructor view except education module. We have also implemented it for a single instructor for testing purpose. Only the ducation domain is visible to the instructor.
 <!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 28-May-2022**
 
+## Desk Theme
+ 
+ -Sir assigned us (Me and Jaspreet) the task to beautify the desk view with bootstrap. So we are exploring about it.
+ - We found theme of desk. We install a theme from this url: https://github.com/hashirluv/r
+ -After installing this theme, colour of heading, navigation bar etc got changed.
+ - Then we tried some other themes also. We tried White Theme, Blue Theme etc.
+ - Then we understand the code and css files to change the view of desk. We can change only background colours, text colours, hover text colour etc with    some changes in the css files.
+ <!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 30-May-2022**
+
+## Compare Student Record with new data
+ 
+ Today, I compare students record with the new data provided by NSPS. I have to add new students in the system etc.
+<!----------------------------------------------------------------------------------------------------------------------------->
+ 
+**Date : 31-May-2022**
+
+## Active and Deactive Students
+ 
+ - We can check all active students and deactive students in the system.
+ - Deactive students are those who have not paid their fees after a particular date.
+ - We can check all active/deactive students from student list.
+ - Go to student list. Add a filter with “Enabled” equals “Yes” in the student list. Count of all active students will show there.
+ - To check Deactive students, change value of Enable to No. Then all deactive students will be visible.
+ - We can also check Gender wise Active or Deactive students by applying Gender equals Female or Male filter.
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+**Date : 1-June-2022**
+
+## Class and Section wise Active/Deactive Students
+ 
+ - There is no Program field in the student doctype.
+ - So we have to customize the doctype and add a new field Program and link it to the Program DocType.
+ - After this, we can check count of active or deactive students class-wise and section-wise.
+ - For class-wise, add a filter of program for example Program like Class 8.
+ - For section-wise, add a filter of program. For example Program equals Class 8 A.
+ 
+<!----------------------------------------------------------------------------------------------------------------------------->
 
