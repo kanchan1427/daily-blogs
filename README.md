@@ -294,7 +294,7 @@ Today Sir has assigned me a task to do basic setup of ErpGuru on server. Sir gav
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 **Date : 01-March-2022**
-## Installation of chat app on ErpGuru version 13
+## Installation of chat app on ErpGuru 
  I and vishal installed the chat app on ErpGuru version 13 and it is working fine. It wasn't avialable with the official ErpGuru v13.
  We did:-
 $ bench get-app chat
