@@ -35,7 +35,7 @@ The LAMP stack is a popular open-source solution stack used primarily in web dev
 **Date : 3-Feb-2022**
 ## Introduction to frappe
 
-Frappe, pronounced fra-pay, is a full stack, batteries-included, web framework written in Python and Javascript with MariaDB as the database. It is the framework which powers ERPNext, is pretty generic and can be used to build database driven apps.
+Frappe, pronounced fra-pay, is a full stack, batteries-included, web framework written in Python and Javascript with MariaDB as the database. It is the framework which powers ErpGuru, is pretty generic and can be used to build database driven apps.
 **Why Frappe?
 The key difference in Frappe compared to other frameworks is that meta-data is also treated as data. This enables you to build front-ends very easily. We believe in a monolithic architecture, so Frappe comes with almost everything you need to build a modern web application. It has a full featured Admin UI called the Desk that handles forms, navigation, lists, menus, permissions, file attachment and much more out of the box.
 
@@ -149,7 +149,7 @@ Design your UI - Build beautiful, accessible user interfaces people enjoy using.
 Automate processes - In seconds, setup automations such as email alerts, Slack notifications, CRON actions, and more.
 
 For creating CRUD app click on "https://docs.budibase.com/docs/build-a-crud-app".
- Today i am done with the installation of erpnext.
+ Today i am done with the installation of ErpGuru.
  There was a presentation by one of my mates on frappe and how to create library mangement system in frappe framework.The presentation was good.they told us about the installation steps of frappe bench and how to create LMS and pros and cons of frappe like if we have to add users or articles then its is not possible to upload in bulk we need to upload them manually one by one.and how to create app,site and how to add articles and doctypes in LMS.
  <br>
 
@@ -194,7 +194,7 @@ I am currently working on budibase. Today i was reading documents related to doc
 **Date : 17-Feb-2022**
 ## Create CRUD app using MySQL in budibase
  
- Today I was trying to create crud app-MySQL but there is an error related to database . And I am reading the documentation of erpnext (education domain) and  learnt how to create students and instructors.
+ Today I was trying to create crud app-MySQL but there is an error related to database . And I am reading the documentation of ErpGuru (education domain) and  learnt how to create students and instructors.
 For creating CRUD app click on "https://docs.budibase.com/docs/build-a-crud-app".<br>
 
 
@@ -202,16 +202,16 @@ For creating CRUD app click on "https://docs.budibase.com/docs/build-a-crud-app"
 
 **Date : 18-Feb-2022**
 
-## Working on ERPNEXT 
-Today i started working on new platform erpnext it is open source, and low code or no platform. It is fun to work on a wonderful platform they provided us so much funtionality with number of modules like education domain, crm, website etc and all these are available inside a single platform and if we want to do modifications it is also possible in the erpnext :) 
- Today i am reading the documentation of erpnext to understand the education domain. Today i have created some programs and courses now i am trying to understand how to enroll students in programs and courses.
+## Working on ErpGuru 
+Today i started working on new platform ErpGuru it is open source, and low code or no platform. It is fun to work on a wonderful platform they provided us so much funtionality with number of modules like education domain, crm, website etc and all these are available inside a single platform and if we want to do modifications it is also possible in the ErpGuru :) 
+ Today i am reading the documentation of ErpGuru to understand the education domain. Today i have created some programs and courses now i am trying to understand how to enroll students in programs and courses.
 
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 **Date : 19-Feb-2022**
  ## Installation of MOSH and TMUX
- Today we were working on education domain in erpnext and trying to understand the student module of education domain. Today we got to know two new tools which are really very helpful for the coders which are TMUX and MOSH. 
+ Today we were working on education domain in ErpGuru and trying to understand the student module of education domain. Today we got to know two new tools which are really very helpful for the coders which are TMUX and MOSH. 
 Mosh: Mosh is free and command-line software that is used to connect
 from a client computer to a server over the Internet to run a remote
 terminal. Mosh is more intelligent than SSH. While the SSH client
@@ -239,16 +239,16 @@ detach from a running process, and reattach to a running process.
 
 **Date : 21-Feb-2022**
  
- ## Working on ERPNEXT 
-I am working on education domain of erpnext in this i have created programs and courses. In erpnext program means classes and courses means subjects. And i also did the enrollments of students in the programs and courses. Now i am trying to understand the studnets groups in erpnext.
+ ## Working on ErpGuru 
+I am working on education domain of ErpGuru in this i have created programs and courses. In ErpGuru program means classes and courses means subjects. And i also did the enrollments of students in the programs and courses. Now i am trying to understand the studnets groups in ErpGuru.
 
  
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 **Date : 22-Feb-2022**
  
-## Working on ERPNEXT 
-Today i am working on student group which are avialble in erpnext these are like a student sections. We can create students based on courses, Acedemic term, Activity which will help us to do group actions like if we want to generate fee of a student group at a time then it will help us in that instead of generating the fee of  single single student.
+## Working on ErpGuru 
+Today i am working on student group which are avialble in ErpGuru these are like a student sections. We can create students based on courses, Acedemic term, Activity which will help us to do group actions like if we want to generate fee of a student group at a time then it will help us in that instead of generating the fee of  single single student.
 
  
 
@@ -256,10 +256,10 @@ Today i am working on student group which are avialble in erpnext these are like
 
 **Date : 23-Feb-2022**
  
- ## Structure of erpnext
-Today sir has assigned the task to explore the strcuture of erpnext. I am reading the documentation and watching youtube videoes and trying to understand it:)
- Today I have learnt what is erpnext, architecture of erpnext, what is
-the role of frappe in erpnext, how erpnext is different from
+ ## Structure of ErpGuru
+Today sir has assigned the task to explore the strcuture of ErpGuru. I am reading the documentation and watching youtube videoes and trying to understand it:)
+ Today I have learnt what is ErpGuru, architecture of ErpGuru, what is
+the role of frappe in ErpGuru, how ErpGuru is different from
 traditional softwares, what is doctype and field types. 
  
 
@@ -268,34 +268,34 @@ traditional softwares, what is doctype and field types.
 
 **Date : 24-Feb-2022**
 
-## Understanding the structure of erpnext
- Today I have learnt what is erpnext, architecture of erpnext, what is the role of frappe in erpnext, how erpnext is different from
+## Understanding the structure of ErpGuru
+ Today I have learnt what is ErpGuru, architecture of ErpGuru, what is the role of frappe in ErpGuru, how ErpGuru is different from
 traditional softwares, what is doctype and field types. It is very interesting as i am having fun while doing this.
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 **Date : 25-Feb-2022**
-## Understanding the structure of erpnext
+## Understanding the structure of ErpGuru
  
  Today i have learnt how we can add and delete instructor, students, courses from backend. and i am trying to understand the structure of
-erpnext. It is very simple as all the doctypes in erpnext have a table with same name in the database and we can delete, insert and update enteries of all the doctypes by using basic mysql queries.
+ErpGuru. It is very simple as all the doctypes in ErpGuru have a table with same name in the database and we can delete, insert and update enteries of all the doctypes by using basic mysql queries.
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 26-Feb-2022**
-## Understanding the structure of erpnext
+## Understanding the structure of ErpGuru
 
- Today i am working on erpnext structure. I am trying to understand how views, modals and controllers are generated in erpnext and how to customize them. I am reading the official documentation and watching youtube videos to understand this. It is very difficult to understand the complete structure of erpnext as it is very big platform :(  but i am doing my best to understand it.
+ Today i am working on ErpGuru structure. I am trying to understand how views, modals and controllers are generated in ErpGuru and how to customize them. I am reading the official documentation and watching youtube videos to understand this. It is very difficult to understand the complete structure of ErpGuru as it is very big platform :(  but i am doing my best to understand it.
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 **Date : 28-Feb-2022**
 ## Basic setup of erpext on server
-Today Sir has assigned me a task to do basic setup of erpnext on server. Sir gave me admin access so that i can do it on server and told me to check how one can apply for a particular program.
- For this First i created programs some with frontend and some by using import tool, Then i created courses with import tool, and successfully imported some students and instructors in the erp and assigned them programs and courses. And i am trying to understand what is cost center in erpnext.
+Today Sir has assigned me a task to do basic setup of ErpGuru on server. Sir gave me admin access so that i can do it on server and told me to check how one can apply for a particular program.
+ For this First i created programs some with frontend and some by using import tool, Then i created courses with import tool, and successfully imported some students and instructors in the erp and assigned them programs and courses. And i am trying to understand what is cost center in ErpGuru.
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 **Date : 01-March-2022**
-## Installation of chat app on erpnext version 13
- I and vishal installed the chat app on erpnext version 13 and it is working fine. It wasn't avialable with the official erpnext v13.
+## Installation of chat app on ErpGuru version 13
+ I and vishal installed the chat app on ErpGuru version 13 and it is working fine. It wasn't avialable with the official ErpGuru v13.
  We did:-
 $ bench get-app chat
 $ bench --site your-site install-app chat
@@ -305,8 +305,8 @@ $ bench --site your-site install-app chat
 
 
 **Date : 02-March-2022**
-## Reading the documentation of erpnext
-Today I was reading the documentation of erpnext and trying to understand the instructor section of education domain. I got to know that while creating the instrcutor first we need to create the employee and assign them a particular company and after assigning the company we can make the same employee an instructor. Then we can assign them a particular program and courses. 
+## Reading the documentation of ErpGuru
+Today I was reading the documentation of ErpGuru and trying to understand the instructor section of education domain. I got to know that while creating the instrcutor first we need to create the employee and assign them a particular company and after assigning the company we can make the same employee an instructor. Then we can assign them a particular program and courses. 
 
 
 
@@ -315,8 +315,8 @@ Today I was reading the documentation of erpnext and trying to understand the in
  **Date : 03-March-2022**
 <!----------------------------------------------------------------------------------------------------------------------------->
 ## Instructor Module
-Today I was exploring the instructor and website module in erpnext . I
-implemented it in erpnext on my local device. Trying to explore all the duties and roles of instructor that are present in erpnext and also i am trying to understand the website module.
+Today I was exploring the instructor and website module in ErpGuru . I
+implemented it in ErpGuru on my local device. Trying to explore all the duties and roles of instructor that are present in ErpGuru and also i am trying to understand the website module.
 
 
 
@@ -325,12 +325,12 @@ implemented it in erpnext on my local device. Trying to explore all the duties a
  **Date : 04-March-2022**
 ## Meeting app
 Today vishal and pawan gave us a presentation of meeting app. They showed us how to create custom apps in erp and how to install it onto the site. And they also showed us the code of the app and structure and files of the meeting app. 
- Working on instructure section of education module of erpnext. 
+ Working on instructure section of education module of ErpGuru. 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 05-March-2022**
  
 ## Notice Board app
-Today we all created a notice board app in erpnext within 30 minutes. It was a wonderful experience as we can created such apps withiin a short time period.
+Today we all created a notice board app in ErpGuru within 30 minutes. It was a wonderful experience as we can created such apps withiin a short time period.
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 07-March-2022**
 ## Basic setup for Nanakana Sahib Public School
@@ -340,7 +340,7 @@ School. I have created three programs Class 1, Class 2, Class 3 and
 three instructors for each class , four courses for each class, and
 2-2 topics per courses, three room and other basic requirements.
 I have imported data of 8 students using the data import feature in
-erpnext and also tried to update the existing record which is working
+ErpGuru and also tried to update the existing record which is working
 fine without any issue.
 
 <!----------------------------------------------------------------------------------------------------------------------------->
@@ -351,13 +351,13 @@ Today sir assigned me a task to import all the students and applicants. And if a
  **Date : 09-March-2022**
  
 ## Notification After Applying for a program
-I was searching that how a student can get a notification after fubmission of the web form. For this i was reading the official documentation and watching youtube videos. After Investing so much time i got to know that in the erpnext there is inbuilt notification feature and we can apply condition in notifications for when and for what we want to send notifications.
+I was searching that how a student can get a notification after fubmission of the web form. For this i was reading the official documentation and watching youtube videos. After Investing so much time i got to know that in the ErpGuru there is inbuilt notification feature and we can apply condition in notifications for when and for what we want to send notifications.
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
  **Date : 11-March-2022**
 ## Notification After Applying for a program
-I was searching that how a student can get a notification after fubmission of the web form. For this i was reading the official documentation and watching youtube videos. After Investing so much time i got to know that in the erpnext there is inbuilt notification feature and we can apply condition in notifications for when and for what we want to send notifications.
+I was searching that how a student can get a notification after fubmission of the web form. For this i was reading the official documentation and watching youtube videos. After Investing so much time i got to know that in the ErpGuru there is inbuilt notification feature and we can apply condition in notifications for when and for what we want to send notifications.
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
@@ -399,17 +399,17 @@ Today we all have done the basic setup again for Nankana Sahib Public School for
 **Date : 15-March-2022**
 
 ## Course Scheduling
- Today we all have implemented course scheduling via course scheduling tool , assessment plan, attendance by using attendance tool, we were also exploring the student leave application but the problem is if we have added an application for leave and also approved it but after approving if an instructor is trying to add attendance of whole class via attendence tool then it marking everyone present including students with leave application. Today we all have explored learning management system in erpnext too "https://gne11.gndec.ac.in/lms"  which is basically student interface.
-I was also working on emails basically "how we can disable email must be unique" in erpnext and I have found a solution for this problem for this we have to open the doctype and to click on customize doctype and then go to email field type then click on edit in full page there is an checkbox named "Unique"  then just uncheck it.
-Now I was exploring how do I can add parents in erpnext and what are the requirements and I have found that there is an option named
-guardians in erpnext education module now I am working on it.
+ Today we all have implemented course scheduling via course scheduling tool , assessment plan, attendance by using attendance tool, we were also exploring the student leave application but the problem is if we have added an application for leave and also approved it but after approving if an instructor is trying to add attendance of whole class via attendence tool then it marking everyone present including students with leave application. Today we all have explored learning management system in ErpGuru too "https://gne11.gndec.ac.in/lms"  which is basically student interface.
+I was also working on emails basically "how we can disable email must be unique" in ErpGuru and I have found a solution for this problem for this we have to open the doctype and to click on customize doctype and then go to email field type then click on edit in full page there is an checkbox named "Unique"  then just uncheck it.
+Now I was exploring how do I can add parents in ErpGuru and what are the requirements and I have found that there is an option named
+guardians in ErpGuru education module now I am working on it.
 
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
  **Date : 16-March-2022**
 ## Report Card Generation
-In the erpnext education module I was trying to generate report card
+In the ErpGuru education module I was trying to generate report card
 for students while creating report card I am able to show the courses
 and exams but not able to show the marks of students in the report
 card,
@@ -419,14 +419,14 @@ card,
  **Date : 17-March-2022**
 
 ## Guardian Module
-I was exploring guardians modules in erpnext . I have created a
+I was exploring guardians modules in ErpGuru . I have created a
 guardian in education module there are two ways to create a guardian
 one by creating a user first then assign that user id to the guardian
 and other is we can directly create a user in the guardian doctype
 then there is a button named  "invite as user" after this in both the
 methods a invitation mail is sent to the user to complete their
 registration or to set a password. I was following
-"https://docs.erpnext.com/docs/v13/user/manual/en/education/guardian"
+"https://docs.ErpGuru.com/docs/v13/user/manual/en/education/guardian"
 
 But in this they haven't mentioned which type of role and permissions
 we need to assign to a parent user.
@@ -487,14 +487,14 @@ I really enjoyed reading the above reports.
 
 <!----------------------------------------------------------------------------------------------------------------------------->
  **Date : 22-March-2022**
-## Installing new Erpnext on server
-First we install frappe framework then install erpnext with education domain.
- - After this we are collecting students and teachers data from Nankana Sahib Public School. - Arranging data according to doctype in erpnext. 
+## Installing new ErpGuru on server
+First we install frappe framework then install ErpGuru with education domain.
+ - After this we are collecting students and teachers data from Nankana Sahib Public School. - Arranging data according to doctype in ErpGuru. 
  
 <!----------------------------------------------------------------------------------------------------------------------------->
  **Date : 23-March-2022**
 ## Comparing "http://103.66.206.229:8001/gne" in mobile and laptop
-Today Sir told me to comapre this site in mobile view as well as in laptop view. As there was some problem in the mobile view. Also I was working on the ducation domain of erpnext and trying to understand it. 
+Today Sir told me to comapre this site in mobile view as well as in laptop view. As there was some problem in the mobile view. Also I was working on the ducation domain of ErpGuru and trying to understand it. 
 
 
 <!----------------------------------------------------------------------------------------------------------------------------->
@@ -509,17 +509,17 @@ Today i was trying to understand the default workflow of employee leave manageme
 ## Helping others in their tasks
 Today i Was helping others in their tasks. I 
 helped Jaspreet in importing instructors as there were some issue we both were trying to resolve it and after investing some time in it it got resolved.
- After this I helped Sehjal in importing And adding the students in erpnext. And was trying to understand their tasks.
+ After this I helped Sehjal in importing And adding the students in ErpGuru. And was trying to understand their tasks.
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 26-March-2022**
 ## Naming series According to the company
-Today Sir assigned me and vishal  a task to change the naming series of student applicant doctype according to the company abberivation so that we can identify the students of each company(school/college) by looking at their naming series. There was a solution avialable in the official documentation of erpnext and we tried it but it wasn't working. We also tried some changes but still it wasn't working. After this we  were searching for the other solutions and there was a solution available in the discussion forum. We tried it on local machines and it was working perfectly after this we implemented it on gne11.gndec.ac.in
+Today Sir assigned me and vishal  a task to change the naming series of student applicant doctype according to the company abberivation so that we can identify the students of each company(school/college) by looking at their naming series. There was a solution avialable in the official documentation of ErpGuru and we tried it but it wasn't working. We also tried some changes but still it wasn't working. After this we  were searching for the other solutions and there was a solution available in the discussion forum. We tried it on local machines and it was working perfectly after this we implemented it on gne11.gndec.ac.in
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 28-March-2022**
 
 ## Trying to understand the student leave section
-Today I am trying to understand the student leave section under education domain of erpnext. I was trying to understand the default workflow of student leave section. how students will add their leaves and how instructor will get notification of the leaves.  
+Today I am trying to understand the student leave section under education domain of ErpGuru. I was trying to understand the default workflow of student leave section. how students will add their leaves and how instructor will get notification of the leaves.  
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 29-March-2022**
@@ -529,9 +529,9 @@ Today i created a doctype named trainees_details with some fields and after that
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 30-March-2022**
-## Integration of Erpnext with moodle
+## Integration of ErpGuru with moodle
  
-Today sir gave me a task to find a solution to integrate erpnext with moodle.After searching i got to know a new tool by which we can integrate erpnext with moodle.Myddleware for Moodle enables you to transfer your data easily and
+Today sir gave me a task to find a solution to integrate ErpGuru with moodle.After searching i got to know a new tool by which we can integrate ErpGuru with moodle.Myddleware for Moodle enables you to transfer your data easily and
 safely from your Moodle application to other applications such as your
 e-commerce, CRM or messaging tools. By doing so, it ensures a durable
 quality of your data, which is a prerequisite for productivity and
@@ -544,7 +544,7 @@ data quality.
 Myddleware, easily connect Moodle to other applications for more
 productivity and efficiency :
 
-  CRM/ERP : Salesforce, SAP CRM, SugarCRM, SuiteCRM, ERPNext, Hubspot,
+  CRM/ERP : Salesforce, SAP CRM, SugarCRM, SuiteCRM, ErpGuru, Hubspot,
 Cirrus Shield
                         Manage your Moddle courses directly from your
 CRM and collect information on course completion
@@ -565,7 +565,7 @@ Today my task was to only show all the instructor and students only their concer
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 2-April-2022**
 ## Reading the files of LMS
-As by using user permissions still instructor was able to see all the programs and courses. To find the solution for this we are trying to understand the structure of lms for this i was reading all the files of lms present in erpnext in the programs and course file it is metioned that by default instructor has access to all the programs and courses.
+As by using user permissions still instructor was able to see all the programs and courses. To find the solution for this we are trying to understand the structure of lms for this i was reading all the files of lms present in ErpGuru in the programs and course file it is metioned that by default instructor has access to all the programs and courses.
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 5-April-2022**
@@ -593,7 +593,7 @@ As per official documentation I created Library Management App.
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 7-April-2022**
 ## Understanding the quiz format
-Today I was searching that how can we hide the quiz result from the users and show them after some time. For that first I have checked all the quiz related doctypes and related parameters but in these there wasn't any control available for this. Then i checked all the doctypes files in erpnext folder and tried to understand the coding. In these files there isn't any condition available for the result they are showing the result based on a condition if checked question is right then show status pass, result, time taken etc else status fail and result, time taken etc.
+Today I was searching that how can we hide the quiz result from the users and show them after some time. For that first I have checked all the quiz related doctypes and related parameters but in these there wasn't any control available for this. Then i checked all the doctypes files in ErpGuru folder and tried to understand the coding. In these files there isn't any condition available for the result they are showing the result based on a condition if checked question is right then show status pass, result, time taken etc else status fail and result, time taken etc.
 
 
 <!----------------------------------------------------------------------------------------------------------------------------->
@@ -606,13 +606,13 @@ Today Sir explained us all the requirements of the souvenir project and what is 
 ## Acceptence of the Requirements of Souvenir
 Today the requirements and specification of the souvenir project got approval form the sir :) 
  After this i immediately started working on souvenir project. Fisrt i created a doctype named souvenir with some fields like name, branch, urn, crn, dob, fathers name, mothers name etc, and there are two sections avialble for the friends Info of friend1, And Info of Friend2 in these field students will fill the details of their friends and comments for them. 
- After creating the doctype and giving it web view I created a web-form based on the souvenir doctype and the name of the webform is souvenir-form it has same field as souvenir doctype. I Did all this on my local erpnext.
+ After creating the doctype and giving it web view I created a web-form based on the souvenir doctype and the name of the webform is souvenir-form it has same field as souvenir doctype. I Did all this on my local ErpGuru.
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 11-April-2022**
 
 ## Souvenir on server
-After successfully creating the souvenir doctype and souvneir web-form and after checking if it is working or not. Today I created the souvenir doctype and souvenir web form on gne11.gnde.ac.in. And I was also working on the education domain of erpnext for nankana sahib public school.
+After successfully creating the souvenir doctype and souvneir web-form and after checking if it is working or not. Today I created the souvenir doctype and souvenir web form on gne11.gnde.ac.in. And I was also working on the education domain of ErpGuru for nankana sahib public school.
  
 
 <!----------------------------------------------------------------------------------------------------------------------------->
@@ -621,12 +621,12 @@ After successfully creating the souvenir doctype and souvneir web-form and after
 ## Souvenir on Server
 Today I was working on the souvenir form. On our website i wasn't able
 to access the web form due to server exception.Then i created the
-souvenir doctype and souvenir webform on my local erpnext system. Sir
+souvenir doctype and souvenir webform on my local ErpGuru system. Sir
 told me to refresh the gne11.gndec.ac.in and pray sincerely :) . After
 this i was able to access the web form. Now the problem is that the
 user is able to attach image in the image field with login. But user
 is not able to attach image in the image field  (but user is able to
-select image of their choice). I also tried it on my local erpnext
+select image of their choice). I also tried it on my local ErpGuru
 system, on that i am getting same problem.
 
 
@@ -635,8 +635,8 @@ system, on that i am getting same problem.
 **Date : 13-April-2022**
 ## Souvenir and Basic coding guide part-1
 Today I was working on souvenir web-form sir told me to add some more fields in the souvenir web form and do some changes in it.
- Also I have read the basic coding guide part-1 it was very fun to read this as i like reading they have explained each and every this in a wonderful way. This was actually a story of farmer who started his own business and wanted to integrate everything on a single platform then after Searching on internet he got to know about erpnext where he can combine all the modules like accouting, sales management, employee management.
- After the introduction they explained very well the tutorial of erpnext. 
+ Also I have read the basic coding guide part-1 it was very fun to read this as i like reading they have explained each and every this in a wonderful way. This was actually a story of farmer who started his own business and wanted to integrate everything on a single platform then after Searching on internet he got to know about ErpGuru where he can combine all the modules like accouting, sales management, employee management.
+ After the introduction they explained very well the tutorial of ErpGuru. 
 
 
 <!----------------------------------------------------------------------------------------------------------------------------->
@@ -652,14 +652,14 @@ After student section we showed them the whole working of instructor how instruc
 **Date : 16-April-2022**
 
 ## Fetching data from another doctype in doctype
-Today I was trying to fetch the fields in the souvenir doctype from other doctypes and  sehjal and pawandeep also helped me in this we were able to fetch branch name (username) etc. After that i was trying to migrate the souvenir doctype. I am not able to do it on my local erpnext as i am getting an error related to supervisor. I was trying to create an app named souvenir so that one can easily fork it from my repository but i was getting error so vishal created an app named souvenir on his local erpnext and added it to his github and i tried to fork it from his repository again i am getting error related to souvenir.
+Today I was trying to fetch the fields in the souvenir doctype from other doctypes and  sehjal and pawandeep also helped me in this we were able to fetch branch name (username) etc. After that i was trying to migrate the souvenir doctype. I am not able to do it on my local ErpGuru as i am getting an error related to supervisor. I was trying to create an app named souvenir so that one can easily fork it from my repository but i was getting error so vishal created an app named souvenir on his local ErpGuru and added it to his github and i tried to fork it from his repository again i am getting error related to souvenir.
 
 
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 18-April-2022**
 
-## Error On local erpnext 
+## Error On local ErpGuru 
 Today I was continuously getting error ;) related to supervisor vishal and I was trying to resolve this issue but after applying solutions for this error we were getting new errors so we uninstalled the local bench then reinstalled it on our local system. After this I created a
 new app named Souvenir_Form then installed it on site. Then I have created a new doctype named Souvenir and a web form named souvenir on my local system.
 
@@ -668,7 +668,7 @@ new app named Souvenir_Form then installed it on site. Then I have created a new
 **Date : 19-April-2022**
 
 ## Presentation Of all the topics
-Today I gave presentation to all my mates in which i had covered all the topic that i have learnt during training like budibase, docker, erpnext and all the basic topics of education domain like student applicant, programs, courses, instructor, workflow, notifications,
+Today I gave presentation to all my mates in which i had covered all the topic that i have learnt during training like budibase, docker, ErpGuru and all the basic topics of education domain like student applicant, programs, courses, instructor, workflow, notifications,
 souvenir etc. Currently I am working on web form validation I have found some solutions that how to add events for validations and where to add
 validation. I will try to add these in my files and test these events.
 
@@ -705,7 +705,7 @@ Today I and pawan did the validations on web form as previously we had implement
  **Date : 23-April-2022**
 
 ##Working to fetch data from user doctype in souvenir doctype
-Today I and Pawan was trying to fetch the data from user doctype to souvenir doctype. We were searching for the solutions for fetching the fields from another doctype. By default in the erpnect their is "fetch from" option is available in doctypes but we wanted to do it from backend so we implemeted it by using java script events that are present in official documentation of erpnext. We implemented it in js file of souvenir doctype. By using these events we were able to fetch the data like name,email,contact number from user doctype.
+Today I and Pawan was trying to fetch the data from user doctype to souvenir doctype. We were searching for the solutions for fetching the fields from another doctype. By default in the erpnect their is "fetch from" option is available in doctypes but we wanted to do it from backend so we implemeted it by using java script events that are present in official documentation of ErpGuru. We implemented it in js file of souvenir doctype. By using these events we were able to fetch the data like name,email,contact number from user doctype.
 
 
 <!----------------------------------------------------------------------------------------------------------------------------->
@@ -931,9 +931,9 @@ immediately.
  
  First we were implementing the view of souvenir in which we were just fetching the details of souvenir doctype in the view but yesterday sir
 told us to create a webpage for instructor. Today we(I and pawan) had a meeting with sehjal as had implemented mentor mentee before so we
-were trying to understand the concept of that app and the coding. They hadn't implemented the mentor mentee in erpnext she implemented it in
+were trying to understand the concept of that app and the coding. They hadn't implemented the mentor mentee in ErpGuru she implemented it in
 frappe. So she created her own doctypes and added a mentor field in the student doctype by using which she was able to fetch mentees of
-mentor. But in the  erpnext we already have student doctype and instructor doctype even we have a student group in which we can assign
+mentor. But in the  ErpGuru we already have student doctype and instructor doctype even we have a student group in which we can assign
 a mentor to a instructor. Now we are trying to create logic for mentor mentee by using all these doctypes.
 
  <!----------------------------------------------------------------------------------------------------------------------------->
@@ -943,9 +943,9 @@ a mentor to a instructor. Now we are trying to create logic for mentor mentee by
  
  I am implementing the view of souvenir in which we were just fetching the details of souvenir doctype in the view but yesterday sir
 told us to create a webpage for instructor. Today we(I and pawan) had a meeting with sehjal as had implemented mentor mentee before so we
-were trying to understand the concept of that app and the coding. They hadn't implemented the mentor mentee in erpnext she implemented it in
+were trying to understand the concept of that app and the coding. They hadn't implemented the mentor mentee in ErpGuru she implemented it in
 frappe. So she created her own doctypes and added a mentor field in the student doctype by using which she was able to fetch mentees of
-mentor. But in the  erpnext we already have student doctype and instructor doctype even we have a student group in which we can assign
+mentor. But in the  ErpGuru we already have student doctype and instructor doctype even we have a student group in which we can assign
 a mentor to a instructor. Now we are trying to create logic for mentor mentee by using all these doctypes.
 
  <!----------------------------------------------------------------------------------------------------------------------------->
@@ -996,9 +996,9 @@ instructor will have only the class A's students.But we are unable to map the me
 
 **Date : 14-May-2022**
 
-## Exploring CRM module in erpnext
+## Exploring CRM module in ErpGuru
  
- Today I am working on CRM module in erpnext.CRM helps you track business Opportunities from Leads and Customers, send them Quotations, and book Sales Orders.CRM has various terms like Lead, sales, reports, setup, marketing, article.
+ Today I am working on CRM module in ErpGuru.CRM helps you track business Opportunities from Leads and Customers, send them Quotations, and book Sales Orders.CRM has various terms like Lead, sales, reports, setup, marketing, article.
 I will explore all these terms.
  
  In CRM under the sales section we have
@@ -1008,7 +1008,7 @@ products or services. For example if we are advertising some products
 and people are interested in our products and they come to check out
 our products. These are our Leads.
 
-After creating a lead erpnext is providing us many features like auto
+After creating a lead ErpGuru is providing us many features like auto
 assignment by using which we can assign a lead to a particular user.
 Adding Multiple Contacts and Addresses:- In order to close a sales
 deal, you will have to contact multiple people working in the
@@ -1022,7 +1022,7 @@ also we can send email/ reply to the customer from the lead.
 
 **Date : 16-May-2022**
 
-## CRM in erpnext
+## CRM in ErpGuru
  
 opportunity:- When you get a hint that lead is looking for a
 product/service that you offer, you can convert that lead into an
@@ -1046,7 +1046,7 @@ improvements at various areas in the organisation.
  <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 17-May-2022**
 
-## Sales section under CRm in erpnext
+## Sales section under CRm in ErpGuru
  
  
 In the CRM under the Sales section we have
@@ -1074,21 +1074,21 @@ Or we can see the complete accounting ledger for a particular user.
 
 **Date : 18-May-2022**
 
-## HR and Buying module in erpnext
+## HR and Buying module in ErpGuru
  
  Today Sir has assigned us a new task. I and Aman will explore the HR and Buying module in the erpnxt. We have shared all the templates for required data with some temporary data.
  
 The Human Resources (HR) module covers the processes related to the HR department of a company. It maintains a complete employee database including contact information, salary details, attendance, performance evaluation, leaves, and appraisal records.
 The most important feature here is processing the payroll by using Payroll Entry to generate Salary Slips. Most countries have complex tax rules stating which expenses the company can make on behalf of its Employees.
-There are a set of rules for the company to deduct taxes and social security from employee payroll. ERPNext accommodates all types of taxes and their calculation.
+There are a set of rules for the company to deduct taxes and social security from employee payroll. ErpGuru accommodates all types of taxes and their calculation.
  <!----------------------------------------------------------------------------------------------------------------------------->
 
  **Date : 19-May-2022**
 
-## HR and Buying module in erpnext
+## HR and Buying module in ErpGuru
 
  In the HR domain we have Shift Management module.The Shift Management
-module in ERPNext HR helps us efficiently manage shifts for our
+module in ErpGuru HR helps us efficiently manage shifts for our
 employees.
 Under the shift Management we have Shift type, Shift assignment, shift request .
 
@@ -1105,14 +1105,14 @@ will automatically  assign shifts to the employees
  <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 21-May-2022**
 
-## HR module in erpnext
+## HR module in ErpGuru
  
  In the HR module We ca add employee, can mark their attendence, generate their salraies,Fleet management, performance appraisal etc. Employees can also request for leave. 
  <!----------------------------------------------------------------------------------------------------------------------------->
 
 **Date : 23-May-2022**
 
-## Buying module in erpnext
+## Buying module in ErpGuru
  
  Today I and aman was exploring the buying module. In Buying, we need to have items, suppliers and warehouses.
 In this, firstly we will create a Material Request for the items that we want to buy, then a request for quotation will be created against that material request. Email will be sent to the suppliers and they will submit the supplier quotation. Then it will be visible to us in
@@ -1125,7 +1125,7 @@ the supplier quotation list. We will choose the best quotation among all of them
 ## View According to roles in the desk
  
 Today Sir has assigned me a new task. I am work on what should be visible to a particular role in the desk view. I will also compare the
-current system (Fee bank) of Nankana Sahib Public School with the erpnext.Today I am reading the files of erpnext and also exploring
+current system (Fee bank) of Nankana Sahib Public School with the ErpGuru.Today I am reading the files of ErpGuru and also exploring
 desk so that we can change the view / sidebar based on the roles.
  
 
@@ -1134,7 +1134,7 @@ desk so that we can change the view / sidebar based on the roles.
 
 ## View According to roles in the desk
  
-We were finding a way to generate/ update the view according to the role. We haven't found anything in the files of erpnext and on desk. Sowe have checked all the posts on the communutity related to this for the solution. In the community they are saying currently it is not possible to
+We were finding a way to generate/ update the view according to the role. We haven't found anything in the files of ErpGuru and on desk. Sowe have checked all the posts on the communutity related to this for the solution. In the community they are saying currently it is not possible to
 restrict the modules according to the roles. But we can do this for each user.Means if there is an instructor role  and we want to restrict
 the other modules for instructor role except the education module.This is not possible to do this for role. If there are 10 instructor
 users then we can do this for each user.
@@ -1192,4 +1192,3 @@ In the community they are saying currently role basedpermissions are not availab
  - For section-wise, add a filter of program. For example Program equals Class 8 A.
  
 <!----------------------------------------------------------------------------------------------------------------------------->
-
